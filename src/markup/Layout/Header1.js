@@ -1,0 +1,199 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import logo from './../../images/logo.png';
+import HeaderMenu from './HeaderMenu';
+
+
+class Header1 extends Component {
+    componentDidMount() {
+        var Navicon = document.querySelector('.navicon');
+        var sidebarmenu = document.querySelector('.myNavbar ');
+
+        function toggleFunc() {
+            sidebarmenu.classList.toggle('show');
+            //   Navicon.classList.toggle('open');
+        }
+        Navicon.addEventListener('click', toggleFunc);
+
+
+        // Sidenav li open close
+        var navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li > a, .sub-menu > li > a'));
+        for (var y = 0; y < navUl.length; y++) {
+            navUl[y].addEventListener('click', function () { checkLi(this) });
+        }
+
+
+        function checkLi(current) {
+            current.parentElement.parentElement.querySelectorAll("li").forEach(el =>
+                (current.parentElement !== el) ? el.classList.remove('open') : ''
+            );
+
+            setTimeout(() => {
+                current.parentElement.classList.toggle('open');
+
+            }, 100);
+        }
+    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         show: true,
+    //         lastScrollY: 200,
+    //     };
+    // }
+    // controlNavbar = () => {
+    //     if (typeof window !== 'undefined') {
+    //         if (window.scrollY > this.state.lastScrollY) { // if scroll down hide the navbar
+    //             this.setState({ show: false });
+    //         } else { // if scroll up show the navbar
+    //             this.setState({ show: true });
+    //         }
+
+    //         // remember current page location to use in the next move
+    //         this.setState({ lastScrollY: window.scrollY });
+    //     }
+    // };
+
+    //  
+    //     if (typeof window !== 'undefined') {
+    //         window.addEventListener('scroll', this.controlNavbar);
+    //     }
+
+    //     // sidebar open/close
+
+
+    //     var Navicon = document.querySelector('.navicon');
+    //     var sidebarmenu = document.querySelector('.myNavbar ');
+
+    //     function toggleFunc() {
+    //         sidebarmenu.classList.toggle('show');
+    //         //   Navicon.classList.toggle('open');
+    //     }
+    //     Navicon.addEventListener('click', toggleFunc);
+
+
+    //     // Sidenav li open close
+    //     var navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li > a, .sub-menu > li > a'));
+    //     for (var y = 0; y < navUl.length; y++) {
+    //         navUl[y].addEventListener('click', function () { checkLi(this) });
+    //     }
+
+
+    //     function checkLi(current) {
+    //         current.parentElement.parentElement.querySelectorAll("li").forEach(el =>
+    //             (current.parentElement !== el) ? el.classList.remove('open') : ''
+    //         );
+
+    //         setTimeout(() => {
+    //             current.parentElement.classList.toggle('open');
+
+    //         }, 100);
+    //     }
+    // }
+    // componentWillUnmount() {
+    //     if (typeof window !== 'undefined') {
+    //         window.removeEventListener('scroll', this.controlNavbar);
+    //     }
+    // }
+
+    render() {
+        return (
+            <>
+
+                {/* <div className="top-bar">
+                            <div className="container">
+                                <div className="row d-flex justify-content-between">
+                                    <div className="dlab-topbar-left">
+                                        <ul>
+                                            <li><i className="flaticon-phone-call m-r5"></i> ?????</li>
+                                            <li><i className="ti-location-pin m-r5"></i> 08046 Willingboro, New Jersey</li>
+                                        </ul>
+                                    </div>
+                                    <div className="dlab-topbar-right">
+                                        <ul>
+                                            <li><i className="ti-skype m-r5"></i> Agency.software</li>
+                                            <li><i className="ti-email m-r5"></i> contact@devdisruptors.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+
+
+
+
+                <header className="site-header header-transparent mo-left" id="fix-header">
+                    {/* <header className={` header-transparent mo-left ${this.state.show && 'hidden'}`}
+                > */}
+
+                    {/* <div className="sticky-header main-bar-wraper navbar-expand-lg" >
+                        <div className="main-bar clearfix ">
+                            <div className="container clearfix">
+                                <div className="logo-header mostion">
+                                    <Link to={'/'} className="dez-page" ><img src={logo} style={{ height: "60px", marginTop: "5px" }} alt="" /></Link>
+                                </div>
+
+                                <button className="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+
+                                <div className="extra-nav">
+                                    <div className="extra-cell">
+                                        <Link to={'./contact'} className="dez-page site-button primary">Inquire Now </Link>
+                                    </div>
+                                </div>
+
+                                <div className="header-nav navbar-collapse collapse myNavbar justify-content-end" id="navbarNavDropdown">
+                                    <div className="logo-header mostion d-md-block d-lg-none">
+                                        <Link to={'./'} className="dez-page"><img src={logo2} alt="" /></Link>
+                                    </div>
+                            
+                                    <HeaderMenu />
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
+                    <div className="sticky-header main-bar-wraper navbar-expand-lg " >
+                        <div className="main-bar clearfix overlay-primary-dark" style={{
+                            backgroundImage:
+                                'linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)',
+                        }}>
+                            <div className="container clearfix pt-0 " style={{ zIndex: 10 }}>
+                                <div className="logo-header mostion">
+                                    <Link to={'/'} className="dez-page" ><img src={logo} style={{ height: "60px", marginTop: "5px" }} alt="" /></Link>
+                                </div>
+
+                                <button className="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+
+                                <div className="extra-nav">
+                                    <div className="extra-cell">
+                                        <Link to={'./contact'} className="dez-page site-button primary">Inquire Now </Link>
+                                    </div>
+                                </div>
+
+                                <div className="header-nav navbar-collapse  myNavbar justify-content-end" id="navbarNavDropdown" style={{ minHeight: "100%" }}>
+                                    <div className="logo-header mostion d-md-block d-lg-none">
+                                        <Link to={'./'} className="dez-page "><img id='home-icon' src={logo} alt="" /></Link>
+                                    </div>
+                                    {/*  Header Menu Contents  */}
+                                    <HeaderMenu />
+                                    {/*  Header Menu Contents End */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </>
+        )
+    }
+}
+
+
+export default Header1;
