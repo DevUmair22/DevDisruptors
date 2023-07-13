@@ -328,9 +328,9 @@ class HeaderMenu extends Component {
 					<li><Link to={'#'} >Services<i className="fa fa-chevron-down"></i></Link>
 						<ul className="sub-menu" id="tech">
 							{
-								services.map((item) => (
-									<li>
-										<Link to={item.routes} style={{ fontWeight: "600" }} className="dez-page">
+								services.map((item) => (								
+									<li key={item.id}>
+										<Link to={`/services/${item.routes}`} style={{ fontWeight: "600" }} className="dez-page">
 											<div className='d-flex w-100 align-items-center' >
 												<div className=' flex-shrink-0 w-auto'>{item.icon}</div>
 												<div className='flex-column flex-grow-1 text-capitalize w-100'>
@@ -373,7 +373,7 @@ class HeaderMenu extends Component {
 
 
 
-					<li><Link style={{ fontWeight: "600" }} to={'/portfolioo'} className="dez-page">Our Portfolio</Link></li>
+					<li><Link style={{ fontWeight: "600" }} to={'/portfolio'} className="dez-page">Our Portfolio</Link></li>
 
 
 

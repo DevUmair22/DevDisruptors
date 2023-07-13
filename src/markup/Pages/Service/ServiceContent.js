@@ -200,127 +200,585 @@
 export const data = [
   {
     id: 1,
+    route:"webapplicationdevelopment",
     data: [
       {
-
-
-
-
-
-        title: "E-Commerce Development",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Front-end Development",
+        description: "Front-end development involves writing code for a website or web app's design and behavior to make sure it is interactive, appealing, and user-friendly.",
         icon: ""
       },
 
       {
-        title: "API and Microservices",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Back-end Development",
+        description: "Back-end development focuses on building the server-side logic and infrastructure that powers the website or web application.",
         icon: ""
       },
 
       {
-        title: "Custom Portal Software",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Full-stack Development",
+        description: "Full-stack combines both front-end and back-end development from designing the user interface to managing server-side operations.",
         icon: ""
       },
       {
-        title: "Quality Assurance and Performance Optimization",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Website Design",
+        description: "This involves the visual aspects of a website or web app, such as layout, color schemes, typography, and the overall interface or design.",
         icon: ""
       },
       {
-        title: "Application Support and Maintenance",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Content Management System (CMS) Development",
+        description: "CMS platforms like WordPress, Drupal, or Joomla allow users to manage and update website content without extensive technical knowledge. ",
         icon: ""
       },
       {
-        title: "DataBase Migration & Upgrade",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "E-commerce Development",
+        description: "E-commerce development involves creating websites that require specialized e-commerce features such as product catalogs, shopping carts, payment gateways, and order management systems.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Web Application Development",
+        description: "Mobile responsive design ensures that websites are optimized for different screen sizes and devices, providing a seamless user experience.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Mobile Responsive Design",
+        description: "E-commerce development involves creating websites that require specialized e-commerce features such as product catalogs, shopping carts, payment gateways, and order management systems.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Website Maintenance and Support",
+        description: "This service includes regular updates, bug fixes, security patches, and performance optimizations to ensure websites are up-to-date, secure, and functioning properly.",
         icon: ""
       }
     ],
+    pageHeading:[
+      {
+      mainTitle:"Web Development Services", 
+      mainDescription:"Does Your Business Require A Website Or Web Application? DevDisruptors Offers A Wide Range Of Web Development Services From Creating, Building, And Maintaining Websites And Web Apps."
+    }
+    ]
   },
   {
     id: 2,
-
-
-
-
-
-
-
+    route:"mobileapplicationdevelopment",
     data: [
       {
-        title: "Android App Development",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Mobile Application Design",
+        description: "Android and Apple application design consists of the visual appearance and user interface (UI) design of an application including layouts, navigation flows, icons, and other graphical elements. ",
         icon: ""
       },
 
       {
-        title: "IOS App Development",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "App Testing and Quality Assurance",
+        description: "Testing and quality assurance processes ensure that mobile apps function correctly, are stable, and provide a good user experience on various Android devices, screen sizes, and OS versions. ",
         icon: ""
       },
 
       {
-        title: "Hybrid App Development",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "App Maintenance and Support",
+        description: "This includes ongoing maintenance services such as bug fixing or performance optimizations to keep the app up-to-date, secure, and compatible with new Android OS or iOS versions. ",
         icon: ""
       },
       {
-        title: "Application Support and Maintenance",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Application Integrations",
+        description: "This involves integration of various third-party services and APIs into the app, such as payment gateways, social media integrations, analytics tools, cloud storage, and messaging services, to enhance app functionality and user experience. ",
         icon: ""
       },
       {
-        title: "Progressive Web App Development",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "App Optimization",
+        description: "This involves optimizing apps for performance, responsiveness, and battery efficiency. It ensures that the app runs smoothly, loads quickly, and utilizes device resources effectively.",
         icon: ""
       },
       {
-        title: "Quality Assurance and Performance Optimization",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "App Consulting and Strategy",
+        description: "This service helps your business define an app strategy, identify target audience, plan features and functionalities, and make informed decisions regarding the app's development and deployment. ",
         icon: ""
       }
+      ,
+      {
+        title: "Native App Development",
+        description: "For Android, this involves building mobile apps using the Java or Kotlin programming languages and the Android Software Development Kit (SDK). Native app development for iOS uses programming languages such as Swift or Objective-C and Apple's iOS Software Development Kit (SDK). Native apps can take full advantage of OS related features, APIs, and performance optimizations, providing a seamless and optimized user experience. ",
+        icon: ""
+      }
+      ,
+      {
+        title: "Hybrid Mobile App Development",
+        description: "Hybrid app development combines elements of both web and native app development. It involves using web technologies such as HTML5, CSS, and JavaScript, wrapped in a native container, to create mobile applications.",
+        icon: ""
+      }
+      ,
+      {
+        title: "App Backend Development",
+        description: "Backend development means building the server-side logic and infrastructure to support the mobile application, letting it handle data storage, user authentication, APIs, and other server-side operations.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Cross-Platform App Development",
+        description: "Cross-platform development lets applications run on other platforms using a single codebase.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Application Store Deployment",
+        description: "Mobile development services offer assistance with publishing and submitting the app to the Google Play Store for Android apps and the App Store for Apple apps. This includes meeting the store's guidelines, preparing assets, and managing the submission process. ",
+        icon: ""
+      }
+     
     ]
     ,
+    pageHeading:[
+    {
+      mainTitle:"Mobile Application Development Services", 
+      mainDescription:"DevDisruptors offers mobile app development for both iOS (Apple devices) and Android (Google devices), from coding and designing to testing and deploying applications."
+ 
+    }
+    ]
   },
+  
   {
     id: 3,
+    route: `ui-ux-design`,
     data: [
       {
-
-
-
-
-
-        title: "Mobile App Maintenance services",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "User Research & Personal Development",
+        description: "User research helps in understanding target users and informs the design decisions. UI/UX services also involve creating user personas that capture key characteristics, goals, motivations, and pain points of different user types to guide design decisions.",
         icon: ""
       },
 
       {
-        title: "Legacy system upgradation",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Information Architecture",
+        description: "Information architecture involves organizing and structuring content and features in a way that makes it easy for users to navigate and find what they need.",
         icon: ""
       },
 
       {
-        title: "Technical Support for DevOps",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Wireframing and Prototyping",
+        description: "UI/UX services also involve creating wireframes and prototypes to iterate and refine the design before development.",
         icon: ""
       },
       {
-        title: "Web App Maintenance Services",
-        description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+        title: "Visual Design",
+        description: "This focuses on creating the visual elements of a digital product, such as color schemes, typography, icons, images, and overall aesthetics.",
         icon: ""
       },
-
+      {
+        title: "Interaction Design",
+        description: "Interaction design involves designing the way users interact with the digital product, including gestures, animations, transitions, and feedback.",
+        icon: ""
+      },
+      {
+        title: "Responsive Design",
+        description: "Responsive design ensures that the user interface adapts and functions well across different screen sizes, devices, and orientations.",
+        icon: ""
+      }
+      ,
+      {
+        title: "Usability Testing",
+        description: "Usability testing involves observing and collecting feedback from users while they interact with a digital product.",
+        icon: ""
+      }
+           
     ]
     ,
-
-
+    pageHeading:[
+    {
+      mainTitle:"UI-UX", 
+      mainDescription:"UI (User Interface) and UX (User Experience) are closely related disciplines that aim to optimize the interaction between users and digital products."
+ 
+    }
+    ]
   },
+  {
+    id: 4,
+    route: `technicaldocumentation`,
+    data: [
+      {
+        title: "API Documentation",
+        description: "This describes how developers can integrate and use the API effectively in their applications.",
+        icon: ""
+      },
+      
+      {
+        title: "Code Comments",
+        description: "Code comments help other developers understand the code more easily and provide context for future modifications or bug fixes.",
+        icon: ""
+      },
+      {
+        title: "Readme Files",
+        description: "These provide an overview of the project, installation instructions, usage examples, and any other relevant information that helps developers quickly get started with the codebase.",
+        icon: ""
+      },
+      {
+        title: "Code Documentation Generation",
+        description: "Code documentation generation includes extracting code metadata to generate HTML, PDF, or other readable formats for easy reference and navigation.",
+        icon: ""
+      },
+      {
+        title: "Design and Architecture Documentation",
+        description: "This provides insights into the high-level structure, relationships between modules, and key design decisions made during development.",
+        icon: ""
+      },
+      {
+        title: "Database Schema Documentation",
+        description: "This documentation helps developers understand the database design and aids in maintenance, troubleshooting, and data management tasks.",
+        icon: ""
+      },
+      {
+        title: "Workflow and Integration Documentation ",
+        description: "This type of documentation provides step-by-step instructions, configuration details, and prerequisites for integrating the codebase into existing systems or workflows.",
+        icon: ""
+      },
+      {
+        title: "Version Control Documentation",
+        description: "This covers branching strategies, commit conventions, code review processes, and collaboration guidelines for developers working on the codebase.",
+        icon: ""
+      },
+      {
+        title: "Troubleshooting and Debugging Documentation",
+        description: "This helps developers troubleshoot problems, identify and resolve bugs, and optimize performance.",
+        icon: ""
+      },
+      {
+        title: "Release Notes and Change Logs",
+        description: "These provide a summary of new features, improvements, and any known issues associated with each release.",
+        icon: ""
+      },
+    ] ,
+    pageHeading:[
+    {
+      mainTitle:"TECHNICAL DOCUMENTATION", 
+      mainDescription:"Technical documentation aims to assist users, developers, administrators, and other stakeholders in understanding and effectively utilizing a particular technology or solution."
+ 
+    }
+    ]
+  },
+  {
+    id: 5,
+    route: `maintenanceandsupport`,
+    data: [
+      {
+        title: "Bug Fixing",
+        description: "Bug fixing involves investigating reported issues, analyzing the root cause, and applying fixes to eliminate the bugs and ensure the proper functioning of the software.",
+        icon: ""
+      },
+      {
+        title: "Performance Optimization",
+        description: "This includes optimizing code, database queries, or server configurations to enhance the software's speed, scalability, and resource efficiency.",
+        icon: ""
+      },
+      {
+        title: "Security Updates and Patches",
+        description: "Maintenance services include regularly applying security updates, patches, and fixes to address potential vulnerabilities and protect the software from malicious attacks.        ",
+        icon: ""
+      },
+      {
+        title: "Compatibility Updates",
+        description: "This ensures that the software remains compatible with the latest operating system versions to avoid compatibility issues or loss of functionality.",
+        icon: ""
+      },
+      {
+        title: "System Monitoring and Error Logging",
+        description: "This includes proactively identifying issues, investigating their causes, and taking corrective measures.",
+        icon: ""
+      },
+      {
+        title: "Backup and Disaster Recovery",
+        description: "This service includes setting up backup mechanisms, verifying backup integrity, and testing disaster recovery processes.",
+        icon: ""
+      },
+      {
+        title: "User Support and Helpdesk",
+        description: "This service offers responding to support tickets, troubleshooting problems, and providing guidance to ensure users can effectively utilize the software.",
+        icon: ""
+      },
+      {
+        title: "User Support and Helpdesk",
+        description: "As the software evolves, maintenance services may involve releasing new versions or updates to introduce additional features, improvements, or functionalities based on user feedback or changing business requirements.",
+        icon: ""
+      },
+    ],
+    pageHeading:[
+      {
+        mainTitle:"MAINTENANCE AND SUPPORT", 
+        mainDescription:"Maintenance and support services help businesses maximize the value of their software investment and provide users with a positive and hassle-free experience."
+   
+      }
+      ]
+  },
+  {
+    id: 6,
+    route: `digitalanalyticsandmarketing`,
+    data: [
+      {
+        title: "SEO and Digital Marketing Integration",
+        description: "This allows optimization of websites for search engines (SEO) and integration of digital marketing tools like analytics, tracking codes, and social media sharing to enhance online visibility and reach.",
+        icon: ""
+      },
+      {
+        title: "Web Analytics",
+        description: "Web analytics help businesses understand the effectiveness of their website, identify areas for improvement, and make data-driven decisions.",
+        icon: ""
+      },
+      {
+        title: "Conversion Rate Optimization (CRO)",
+        description: "This involves analyzing user behavior, conducting A/B testing, and implementing changes to optimize the user experience and drive conversions.",
+        icon: ""
+      },
+      {
+        title: "Pay-Per-Click Advertising (PPC)",
+        description: "PPC advertising includes keyword research, ad copywriting, campaign setup, monitoring, and optimization to drive targeted traffic and achieve specific marketing objectives.",
+        icon: ""
+      },
+      {
+        title: "Search Engine Optimization (SEO)",
+        description: "This involves keyword research, on-page optimization, technical optimization, link building, and content strategy to drive more organic traffic and increase the website's visibility.",
+        icon: ""
+      },
+      {
+        title: "Social Media Marketing",
+        description: "This includes content creation, community management, social media advertising, and analytics to drive brand awareness, engagement, and conversions.",
+        icon: ""
+      },
+      {
+        title: "Email Marketing",
+        description: "This service involves email design, list segmentation, automation, personalization, and performance tracking.",
+        icon: ""
+      },
+      {
+        title: "Content Marketing",
+        description: "Content marketing includes content strategy development, content creation (such as blog posts, videos, infographics), distribution, and measurement of content performance.",
+        icon: ""
+      },
+      {
+        title: "Social Media Analytics",
+        description: "This helps businesses make data-driven decisions and optimize their social media marketing strategies.",
+        icon: ""
+      },
+      {
+        title: "Marketing Analytics and Reporting",
+        description: "This service includes setting up analytics tools, generating reports, and providing insights and recommendations based on data analysis.",
+        icon: ""
+      },
+      {
+        title: "Digital Strategy and Consulting",
+        description: "This includes defining goals, target audience analysis, competitive analysis, and developing comprehensive digital marketing strategies.",
+        icon: ""
+      },
+    ],
+    pageHeading:[
+      {
+        mainTitle:"DIGITAL ANALYTICS AND MARKETING", 
+        mainDescription:"Digital analytics and marketing services utilize data and insights to inform marketing strategies, improve campaign performance, and enhance the overall digital presence of your business."
+   
+      }
+      ]
+  },
+  {
+    id: 7,
+    route: `testautomation`,
+    data: [
+      {
+        title: "Data Scraping",
+        description: "Web scraping services involve extracting data from websites, such as product details, prices, customer reviews, contact information, or any other relevant information.",
+        icon: ""
+      },
+      {
+        title: "Data Cleansing and Preparation",
+        description: " Data cleaning and preparation services involve removing duplicates, formatting data, fixing inconsistencies, and transforming data into a usable format.",
+        icon: ""
+      },
+      {
+        title: "Competitor Monitoring",
+        description: "Web scraping can be utilized to monitor competitor websites and extract data related to their product offerings, pricing, promotions, or customer reviews. ",
+        icon: ""
+      },
+      {
+        title: "Lead Generation",
+        description: "Web scraping services can help businesses identify potential leads by extracting contact information, email addresses, or other relevant data from websites, directories, or social media platforms.",
+        icon: ""
+      },
+      {
+        title: "Social Media Data Analysis",
+        description: "Web scraping services can scrape social media platforms to collect data related to user engagement, sentiment analysis, social media trends, or customer feedback.",
+        icon: ""
+      },
+      {
+        title: "Web Automation",
+        description: "Automation services involve automating repetitive tasks on websites, such as form filling, data entry, or navigating through web pages.",
+        icon: ""
+      },
+    ],
+    pageHeading:[
+      {
+        mainTitle:"WEB SCRAPING AND AUTOMATION", 
+        mainDescription:" These services help businesses gather valuable information, streamline processes, and gain efficiency in various areas."
+   
+      }
+      ]
+  }  ,
+  {
+    id: 8,
+    route: `devOps`,
+    data: [
+      {
+        title: "Consulting and Assessment",
+        description: "DevOps consulting services involve evaluating an organization's current software development and operations practices, identifying areas for improvement, and providing guidance on adopting DevOps principles.",
+        icon: ""
+      },
+      {
+        title: "Continuous Integration and Continuous Deployment (CI/CD) Implementation",
+        description: "CI/CD services assist organizations in setting up and configuring automated pipelines for building, testing, and deploying software applications.",
+        icon: ""
+      },
+      {
+        title: "Infrastructure as Code (IaC) and Configuration Management",
+        description: "This involves defining infrastructure requirements as code (IaC) and using tools like Ansible, Puppet, or Chef to automate provisioning, configuration, and management of infrastructure resources.",
+        icon: ""
+      },
+      {
+        title: "Containerization and Orchestration",
+        description: "Containerization services focus on implementing container technologies such as Docker to package applications and their dependencies. This may also include container orchestration using platforms like Kubernetes to manage the deployment and scaling of containers.",
+        icon: ""
+      },
+      {
+        title: "Monitoring and Logging",
+        description: "DevOps services also include the implementation of monitoring and logging solutions to track the performance and health of software applications and infrastructure.",
+        icon: ""
+      },
+      {
+        title: "DevOps Toolchain Integration",
+        description: "DevOps services can also help integrate and streamline your organization's tools to enable seamless collaboration and automation. This may involve integrating version control systems, issue tracking systems, testing frameworks, and deployment tools.",
+        icon: ""
+      },
+    
+  ],
+  pageHeading:[
+    {
+      mainTitle:"DEVOPS SERVICES", 
+      mainDescription:"DevDisruptors aims to assist your business in achieving faster software delivery, improved collaboration, and increased operational efficiency."
+ 
+    }
+    ]
+  }
+,  {
+    id: 9,
+    route: `cloudservcies`,
+    data: [
+      {
+        title: "Infrastructure as a Service (IaaS)",
+        description: "IaaS provides virtualized computing resources such as virtual machines, storage, and networks on-demand. Developers can provision and manage virtualized infrastructure resources without the need for physical hardware.",
+        icon: ""
+      },
+      {
+        title: "Platform as a Service (PaaS)",
+        description: "PaaS offers a complete development and deployment platform that includes the underlying infrastructure, operating system, and development tools. Developers can focus on coding and application logic while the PaaS provider manages the infrastructure and runtime environment.",
+        icon: ""
+      },
+      {
+        title: "Serverless Computing",
+        description: "With serverless computing, developers can write and deploy functions or small units of code that are executed in response to events. The cloud provider manages the scaling and execution of these functions.",
+        icon: ""
+      },
+      {
+        title: "Database as a Service (DBaaS)",
+        description: "DBaaS provides managed database services that handle database administration tasks, such as installation, configuration, backups, and scaling. Developers can focus on interacting with the database and building applications without worrying about infrastructure management.",
+        icon: ""
+      },
+      {
+        title: "Development Tools and SDKs",
+        description: "Cloud providers offer various development tools, software development kits (SDKs), and APIs that enable developers to build, test, and deploy applications on their platforms.",
+        icon: ""
+      },
+      {
+        title: "Containerization and Orchestration",
+        description: "Cloud services often provide containerization platforms like Docker and container orchestration tools like Kubernetes.",
+        icon: ""
+      },
+      {
+        title: "Testing and Continuous Integration",
+        description: "Cloud platforms offer services for automated testing and continuous integration, allowing developers to integrate code changes, build and test applications automatically, and receive feedback quickly.",
+        icon: ""
+      },
+      {
+        title: "Code Repositories and Version Control",
+        description: "Cloud-based code repositories, such as GitHub, GitLab, and Bitbucket, provide version control, collaboration features, and integration with other development tools. Developers can store, manage, and collaborate on code repositories in the cloud.",
+        icon: ""
+      },
+  ],
+  pageHeading:[
+    {
+      mainTitle:"CLOUD SERVICES", 
+      mainDescription:"Cloud platforms offer an extensive range of services that enable developers to build, deploy, and scale applications efficiently and cost-effectively."
+    }
+    ]
+  },
+  {
+    id: 10,
+    route: `datascience`,
+    data: [
+      {
+        title: "Machine Learning Services",
+        description: "Cloud providers offer machine learning services that allow developers to build and deploy machine learning models without needing to manage the underlying infrastructure. These services provide pre-built algorithms, model training and evaluation tools, and deployment options.",
+        icon: ""
+      },
+      {
+        title: "Data Analytics Services",
+        description: "Cloud providers offer data analytics services that enable developers to process and analyze large volumes of data efficiently. These services provide tools for data ingestion, data transformation, and data analysis.",
+        icon: ""
+      },
+      {
+        title: "Data Visualization Tools",
+        description: "Cloud platforms often provide data visualization tools and frameworks that help developers create interactive and informative visual representations of data. These tools enable the creation of dashboards, charts, and graphs to present insights effectively.",
+        icon: ""
+      },
+      {
+        title: "Data Storage and Data Management",
+        description: "Cloud services offer scalable and reliable storage options for managing large volumes of data. These services include data warehousing solutions, data lakes, and databases optimized for data analytics.",
+        icon: ""
+      },
+    ],
+    pageHeading:[
+      {
+        mainTitle:"DATA SCIENCE/AI SERVICES", 
+        mainDescription:"Data science and artificial intelligence (AI) services provide frameworks, libraries, and APIs that enable developers to leverage data science and AI capabilities in their applications."
+      }
+      ]
+    }
+  // {
+  //   id: 3,
+  //   data: [
+  //     {
+
+  //       title: "Mobile App Maintenance services",
+  //       description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+  //       icon: ""
+  //     },
+
+  //     {
+  //       title: "Legacy system upgradation",
+  //       description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+  //       icon: ""
+  //     },
+
+  //     {
+  //       title: "Technical Support for DevOps",
+  //       description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+  //       icon: ""
+  //     },
+  //     {
+  //       title: "Web App Maintenance Services",
+  //       description: "Our team provides ReactJS maintenance and support services for reliable and robust performance of applications. ",
+  //       icon: ""
+  //     },
+
+  //   ]
+  //   ,
+
+
+  // },
 
   // {
   //   id: 4,

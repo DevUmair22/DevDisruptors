@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 import { TabContent, TabPane } from "reactstrap";
 
 //Images
-import pic5 from "./../../images/about/pic5.jpg";
-import pic6 from "./../../images/about/pic6.jpg";
-import pic7 from "./../../images/about/pic7.jpg";
-import pic8 from "./../../images/about/pic8.jpg";
+import pic5 from "./../../images/about/pic5.svg";
+import pic6 from "./../../images/about/pic6.svg";
+import pic7 from "./../../images/about/pic7.svg";
+import pic8 from "./../../images/about/pic8.svg";
+import pic9 from "./../../images/about/pic9.svg";
 
 function Para(index) {
 

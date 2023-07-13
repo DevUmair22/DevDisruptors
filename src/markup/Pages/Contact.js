@@ -40,7 +40,7 @@ class Contact extends Component {
                                                         <span className="icon-sm text-primary text-left"><i className="ti-email"></i></span>
                                                         E-mail
                                                     </h5>
-                                                    <p className="m-b0">contact@devdisruptors.com</p>
+                                                    <p className="m-b0" onClick={()=>window.location.href='mailto:contact@devdisruptors.com'} style={{cursor:"pointer"}}>contact@devdisruptors.com</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -51,7 +51,7 @@ class Contact extends Component {
                                                         <span className="icon-sm text-primary text-left"><i className="ti-mobile"></i></span>
                                                         Phone Number
                                                     </h5>
-                                                    <p>+00 0111-123456</p>
+                                                    <p onClick={()=>window.location.href='tel:+00 0111-123456'} style={{cursor:"pointer"}}>+00 0111-123456</p>
                                                 </div>
                                             </div>
                                         </div>

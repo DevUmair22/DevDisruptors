@@ -64,7 +64,7 @@ const FormStyle = () => {
 									<div className="form-group">
 										<div className="input-group">
 											<span className="input-group-addon"><i className="ti-email text-primary"></i></span>
-											<input name="Email" type="email" className="form-control" required placeholder="Your Email Id" />
+											<input name="Email" type="email" className="form-control" required placeholder="Email" />
 										</div>
 									</div>
 								</div>

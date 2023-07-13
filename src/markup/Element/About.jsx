@@ -9,8 +9,8 @@ const About = () => {
 					<img src={pic4} alt="" className="rounded" />
 				</div>
 				<div className="col-sm-12 col-lg-6 col-md-6">
-					<div className="mx-auto pb-3">
-						<h2 className="py-2 pt-5 my-0 text-3xl">What We Do</h2>
+					<div className="mx-auto">
+						<h2 className="my-1 text-3xl">What We Do</h2>
 						<h6 className="my-0 py-0">
 							Customized solutions that provide value to your business
 						</h6>

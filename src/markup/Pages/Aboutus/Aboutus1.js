@@ -50,10 +50,12 @@ class aboutus extends Component {
                                     </div>
                                     <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
                                         <div className="dis-tbl-cell">
-                                            <h2 className="box-title m-tb0">Solutions that make a difference<span className="bg-primary"></span></h2>
+                                            {/* <h2 className="box-title m-tb0">Solutions that make a difference<span className="bg-primary"></span></h2> */}
                                             <p>DevDisruptors believes in excellence, innovation, and passion
                                                 for creating the best software development solutions for our
-                                                global client base.</p>
+                                                global client base.
+                                                <b> We aim to disrupt the conventional and lead with innovation.</b>
+                                                </p>
 
 
                                             {/* style={{ textAlign: 'justify', color: '#212529' }} */}
@@ -173,7 +175,7 @@ function VisionBlog() {
                         <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
                             <div className="dis-tbl-cell">
                                 <h2 className="box-title">Mission</h2>
-                                <p className="font-16"><b>Our Mission “Adding value to your business.” </b></p>
+                                <p className="font-16"><b>Enabling access to high-quality, cost-effective IT services and solutions. </b></p>
                                 <p className="font-16">Our mission is to enable access to high-quality IT services for small start-ups to large firms at a reasonable cost. We strive to timely deliver the best quality product to the client with the most competitive price-to-quality ratio found in the industry.
 
 
@@ -187,16 +189,19 @@ function VisionBlog() {
                         <div className="col-lg-6 col-md-12 dis-tbl text-justify">
                             <div className="dis-tbl-cell">
                                 <h2 className="box-title">Vision<span className="bg-primary"></span></h2>
-                                <p><b>Our Vision “Aim of giving back to the society.” </b></p>
+                                <p><b>Our vision is to be the leading IT services and solutions company
+                                    enabling the modernization of the global economy.</b></p>
 
-                                <p className="font-16">
+                                {/* <p className="font-16">
                                     Our vision is to be the leading IT services and solutions company
                                     enabling the modernization of the global economy. We want to
                                     be known in the industry as the most reliable, competent, and
                                     customer-friendly software service providers.
-
-
-
+                                </p> */}
+                                 <p className="font-16">
+                                    We want to
+                                    be known in the industry as the most reliable, competent, and
+                                    customer-friendly software service providers.
                                 </p>
                                 <p className="font-16">
                                     Our growth is firmly attached to the growth of our clients. We will exceed the expectations of our clients by creating best-in-class customized software solutions

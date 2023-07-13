@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Card2 = ({ item }) => {
-	console.log('first', item)
 
 	return (
 		<div className="section-full overlay-black-dark our-projects">

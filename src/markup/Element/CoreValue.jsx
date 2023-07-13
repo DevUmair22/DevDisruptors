@@ -1,23 +1,23 @@
 const iconBlog = [
 	{
-		icon: <i className="flaticon-diamond" />,
+		icon: <i className="flaticon-trophy" />,
 		title: 'Passion',
 		para: 'Passion is the driving force behind our impeccable IT services. Our team of highly skilled and passionate developers take pride in their work and strive for long-term success.',
 	},
 	{
-		icon: <i className="flaticon-pen" />,
+		icon: <i className="flaticon-creative" />,
 		title: 'Innovation',
 		para: 'Innovation encourages ideas, challenges the norm, and causes disruption. We unite the best creative minds with experience from a wide range of business industries to develop first-rate solutions.',
 	},
 	{
-		icon: <i className="flaticon-diamond" />,
+		icon: <i className="flaticon-communications" />,
 		title: 'Collaboration',
 		para: 'Collaboration is key to reaching a collective goal and sustaining healthy partnerships. We strive to create strong collaboration and understanding within team and extend this value to our global client base.',
 	},
 	{
-		icon: <i className="flaticon-devices" />,
-		title: 'Customization',
-		para: 'Customization enables solutions that fit the needs of our diverse client base. We use modern mock-up and planning tools to create a blueprint that allows for maximum agility, efficiency, and productivity.',
+		icon: <i className="flaticon-search" />,
+		title: 'Transparency',
+		para: 'Transparency is directly correlated with success. We believe in honesty, trust and mutual understanding within the workplace and with every stakeholder interaction.',
 	},
 ]
 
@@ -36,13 +36,13 @@ const CoreValue = (props) => {
 						<h2 className="box-title mx-auto max-w800 text-capitalize pt-4">
 							{props.title}
 						</h2>
-						<p>{props.para}</p>
+						{/* <p>{props.para}</p> */}
 					</div>
 				</div>
 				<div className="container">
 					<div className="row text-white">
 						{iconBlog.map((item, index) => (
-							<div className="col-lg-3 col-md-6 col-sm-6 my-1" key={index}>
+							<div className="col-lg-3 col-md-6 col-sm-6" key={index}>
 								<div
 									className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4 "
 									// style={{ minHeight: '29rem' }}

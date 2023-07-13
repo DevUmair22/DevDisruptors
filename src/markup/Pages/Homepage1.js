@@ -82,7 +82,7 @@ class Homepage extends Component {
               <div className="section-head text-center mx-auto">
                 <h2 className="box-title m-tb0">Technologies We Love Working With</h2>
                 <p>
-                  Our pool of languages and frameworks used provide you with the best solutions for your business problems
+                Our pool of languages and frameworks used to provide you with the best solutions for your business needs.
                 </p>
               </div>
 

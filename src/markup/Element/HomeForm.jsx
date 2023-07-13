@@ -7,7 +7,8 @@ import { NotificationManager } from 'react-notifications'
 const HomeForm = () => {
 	const theme = useTheme()
 	const isSmallScreen = useMediaQuery(theme.breakpoints.down('xs'))
-	const isMidScreen = useMediaQuery(theme.breakpoints.down('md'))
+	const isMidScreen = useMediaQuery(theme.breakpoints.down('lg'))
+	const isLargeScreen = useMediaQuery(theme.breakpoints.down('xl'))
 
 	const form = useRef()
 	const sendEmail = (e) => {
@@ -38,8 +39,8 @@ const HomeForm = () => {
 				className="container px-5 position-relative"
 				style={{
 					backgroundColor: 'black',
-					top: isSmallScreen ? '0rem' : '4rem',
-					left: isSmallScreen ? '1rem' : '5rem',
+					top: isSmallScreen ? '0rem' : '2rem' || isLargeScreen?  '10rem' : '2rem' ,
+					left: isSmallScreen ? '1rem' : '3rem'|| isLargeScreen?'3rem' : '3rem',
 				}}
 			>
 				{/* <form className="row g-3">
@@ -81,6 +82,9 @@ const HomeForm = () => {
 						border: '1px solid white',
 						width: '80%',
 						zIndex: '6',
+						textAlign:"center",
+						alignItems:"center",
+						justifyContent:"center",
 					}}
 					ref={form}
 					onSubmit={sendEmail}
@@ -134,7 +138,7 @@ const HomeForm = () => {
 											type="text"
 											required
 											className="form-control bg-transparent "
-											placeholder="Your Email Id"
+											placeholder="Email"
 										/>
 									</div>
 								</div>

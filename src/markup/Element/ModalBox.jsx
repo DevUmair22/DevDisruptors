@@ -41,11 +41,11 @@ const ModalBox = ({ item }) => {
 				type="submit"
 				value="Submit"
 				className="site-button button"
-				style={{ borderRadius: '10px' }}
+				style={{ borderRadius: '10px', margin:"10px" }}
 				onClick={handleOpen}
 			>
 				{' '}
-				<span>Read more</span>
+				<span >Read more</span>
 			</button>
 			<Modal open={open} onClose={handleClose}>
 				<Box sx={style}>

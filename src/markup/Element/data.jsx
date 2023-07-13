@@ -22,6 +22,13 @@ import wix from '../../images/new-icons/Wix.svg'
 import wooc from '../../images/new-icons/WooCommerce-Logo.wine.png'
 import wordpress from '../../images/new-icons/wordpress.svg'
 import www from '../../images/new-icons/www.png'
+import devops from '../../images/new-icons/devops.png'
+import cloudservice from '../../images/new-icons/cloud-service.png'
+import intelligence from '../../images/new-icons/intelligence.png'
+import digitalmarketing1 from '../../images/new-icons/digitalmarketing1.png'
+import digitalmarketing2 from '../../images/new-icons/digitalmarketing2.png'
+import digitalmarketing3 from '../../images/new-icons/digitalmarketing3.png'
+import digitalmarketing4 from '../../images/new-icons/digitalmarketing4.png'
 
 const serviceData = [
 	{
@@ -287,35 +294,35 @@ const services = [
 		icon: (
 			<img src={weeb} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=1`,
+		routes: "webapplicationdevelopment",
 	},
 	{
 		title: 'Mobile Application Development',
 		icon: (
 			<img src={mob} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=2`,
+		routes: "mobileapplicationdevelopment",
 	},
 	{
 		title: 'UI/UX Design',
 		icon: (
 			<img src={ux} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=3`,
+		routes: `ui-ux-design`,
 	},
 	{
 		title: 'Technical Code Documentation',
 		icon: (
 			<img src={doc} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=4`,
+		routes: `technicaldocumentation`,
 	},
 	{
-		title: ' Maintenance and Support',
+		title: 'Maintenance and Support',
 		icon: (
 			<img src={tech} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=5`,
+		routes: "maintenanceandsupport",
 	},
 	{
 		title: 'Digital Analytics and Marketing',
@@ -324,14 +331,35 @@ const services = [
 
 			// <FontAwesomeIcon icon="fa-sharp fa-light fa-chart-mixed-up-circle-dollar" />
 		),
-		routes: `./services?id=6`,
+		routes: `digitalanalyticsandmarketing`,
 	},
 	{
-		title: 'Web-scraping and Automation',
+		title: 'Web-scrapping and Automation',
 		icon: (
 			<img src={www} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: `./services?id=7`,
+		routes: `testautomation`,
+	},
+	{
+		title: 'DEVOPS SERVICES',
+		icon: (
+			<img src={devops} className="mr-3" alt="react" width="25px" height="25px" />
+		),
+		routes: `devOps`,
+	},
+	{
+		title: 'CLOUD SERVICES',
+		icon: (
+			<img src={cloudservice} className="mr-3" alt="react" width="25px" height="25px" />
+		),
+		routes: `cloudservcies`,
+	},
+	{
+		title: 'DATA SCIENCE/AI SERVICES',
+		icon: (
+			<img src={intelligence} className="mr-3" alt="react" width="25px" height="25px" />
+		),
+		routes: `datascience`,
 	},
 ]
 
@@ -341,6 +369,10 @@ const projects = [
 		shortDescription:
 			'A robust digital marketing platform for an equestrian-focused agency.',
 		industry: 'Equestrian Sports',
+		image1:digitalmarketing1,
+		image2:digitalmarketing2,
+		image3:digitalmarketing3,
+		image4:digitalmarketing4,
 		projectDescription:
 			'This project involved developing a robust digital marketing platform for an equestrian-focused agency. The company aimed to revolutionize the industry by offering both innovative and user-friendly tech solutions to help equestrians focus on their passion while the platform managed the digital landscape. The DevDisruptors team worked closely with the client to understand their requirements and deliver a comprehensive suite of services.',
 		servicesProvided: [
@@ -426,6 +458,7 @@ const projects = [
 		shortDescription:
 			'An advanced logistics and supply chain management system to streamline operations and ensure efficient and effective transportation practices.',
 		industry: 'Logistics and Transportation',
+	
 		projectDescription:
 			'DevDisruptors developed an advanced logistics and supply chain management system for a client to streamline their operations and ensure efficient and effective transportation practices. From domestic drayage to global shipments, distribution, storage, and everything in between, the solution provided end-to-end management and visibility of their processes.',
 		servicesProvided: [

@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import { TabContent, TabPane } from 'reactstrap';
 
 
-import pic5 from "./../../images/about/pic5.jpg";
-import pic6 from "./../../images/about/pic6.jpg";
-import pic7 from "./../../images/about/pic7.jpg";
-import pic8 from "./../../images/about/pic8.jpg";
+import pic5 from "./../../images/about/pic5.svg";
+import pic6 from "./../../images/about/pic6.svg";
+import pic7 from "./../../images/about/pic7.svg";
+import pic8 from "./../../images/about/pic8.svg";
+import pic9 from "./../../images/about/pic9.svg";
 
 const Index4Tab = () => {
 	const [activeTab, setActiveTab] = useState('1');
@@ -18,38 +19,46 @@ const Index4Tab = () => {
 
 	const dataArray = [
 		{
-			title: "Cost Effectiveness",
+			title: "Quality | Time | Price",
 			headline: "Why Choose Us?",
-			icons: <i className="ti-money"></i>,
+			icons: <i className="flaticon-business"></i>,
 			img: pic5,
 			tabind: 1,
-			para: "Our developers use innovation, automation, and proven project workflow methodologies to build cost-effective high-quality solutions.We adjust the complete lifecycle of the project based on the client's finalized resources and cost and use the latest technologies and techniques in DevOps and automated testing to effectively deliver a complete cost- efficient product."
+			para: "Quality, time, and price (QTP) are interlinking factors that define the progress of a project. We balance these elements to deliver maximum value."
 		}, {
-			title: "Technology Expertise",
+			title: "Track Record",
 			headline: "Why Choose Us?",
-			icons: <i className="ti-crown"></i>,
+			icons: <i className="flaticon-tracking-map"></i>,
 			img: pic6,
 			tabind: 2,
-			para: "Our developers are experts in all the major technologies and platforms and have extensive multi-year experience working on and completing complex projects on time and within the budget.We have an intensively thorough selection process and grading method that we use to hire and retain the best talent in their field.We also provide access to various resources and learning material for our talent to assess and improve their expertise and help them upkeep with the continuously changing technological landscape.Throughout these years, we have accumulated domain- level expertise in designing technical solutions for companies of various sizes and businesses including healthcare, finance, e - commerce, entertainment, telecommunication, manufacturing, transport, and retail."
+			para: "Proven success with our global client base speaks volumes about our capabilities. Throughout these years, we have succeeded in designing technical solutions for companies of various sizes and businesses including healthcare, finance, e-commerce, entertainment, telecommunication, manufacturing, transport, and retail."
 		}, {
-			title: "Working Methodology",
-			icons: <i className="ti-ruler-pencil"></i>,
+			title: "Quality & Innovation",
+			icons: <i className="flaticon-value"></i>,
 			headline: "Why Choose Us?",
 			img: pic7,
 			tabind: 3,
-			para: "We have mastered the implementation and integration of standardized processes to steer our development work. Our expertise in CI/CD and code workflow helps us in building robust automated mechanisms that prove valuable throughout the development and production lifecycles.We believe that there's no one size fits all methodology and we need to modify our processes based on the unique needs of each client. We use Agile, Waterfall, and a hybrid respectively as per the requirements of the clients and projects.With continuous tracking and feedback provisioning, the client has real- time control over the processes and could ask for modifications to further align the processes with the client's needs."
+			para: "We're not just about meeting expectations, but exceeding them. We use innovation, automation, and proven project workflow methodologies to build cost-effective high-quality solutions."
 		}, {
-			title: "Responsiveness",
+			title: "Expert Team",
 			headline: "Why Choose Us?",
-			icons: <i className="ti-dashboard"></i>,
+			icons: <i className="flaticon-team"></i>,
 			img: pic8,
 			tabind: 4,
-			para: "With daily standups and real-time communication channels established, clients could always check in to see the progress of the development underway. We use communication tools like Slack, Teams, Zoom, and Google Meet to enable the smoothest communication experience for our clients and teams.Progress of tasks and issues is tracked over Jira and clients can create new issues and tasks or reprioritize the old ones.Our developers responsively complete the tasks and keep the clients in the loop on the progress.Any hindrance or issue faced by the client in these processes would be catered to immediately by utilizing the client's feedback to modify the process accordingly."
+			para: "Our skilled professionals are dedicated to providing top-notch solutions. Each of our developers are experts in all the major technologies and platforms and have extensive multi-year experience working on and completing complex projects on time and within the budget."
+		}
+		, {
+			title: "Tailored Solutions",
+			headline: "Why Choose Us?",
+			icons: <i className="flaticon-strategy"></i>,
+			img: pic9,
+			tabind: 5,
+			para: "We believe each client is unique and deserves solutions customized to their specific needs. We adjust the complete lifecycle of the project based on the client's finalized resources and cost and use the latest technologies and techniques in DevOps and automated testing."
 		}
 	]
 	return (
 		<>
-			<div className="dez-tabs">
+			<div className="dez-tabs" >
 				<div className="m-auto text-center tab-market">
 					<ul className="nav nav-tabs">
 						{dataArray.map((data) => (
@@ -66,20 +75,20 @@ const Index4Tab = () => {
 
 				<div className="tab-content m-t50 text-white">
 
-					<TabContent activeTab={activeTab}>
+					<TabContent activeTab={activeTab} >
 						{dataArray.map((data) => (
 							<TabPane tabId={`${data.tabind}`}>
 								<div className="tab-pane show fade">
 									<div className="row">
-										<div className="col-lg-8 m-b30">
-											<div className="box">
+										<div className="col-lg-8 m-b30" >
+											<div className="box" style={{width:"90%"}}>
 												<h3 className="font-40">{data.headline}</h3>
-												<p>{data.para}</p>
+												<p style={{textAlign:"justify"}}>{data.para}</p>
 												{/* <Link to={"#"} className="site-button radius-xl button-md">Read More</Link> */}
 											</div>
 										</div>
-										<div className="col-lg-4">
-											<img src={data.img} className="radius-sm" alt="" />
+										<div className="col-lg-4" >
+											<img src={data.img} className="radius-sm" alt="" style={{width: "20rem", marginBottom:"1rem"}}/>
 										</div>
 									</div>
 								</div>

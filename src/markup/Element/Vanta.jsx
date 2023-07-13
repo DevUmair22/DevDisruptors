@@ -47,9 +47,12 @@ const Vanta = () => {
 							Empowering Businesses Through Technology
 						</h3>
 						<p className=" mx-auto text-justify text-black">
+						
 							DevDisruptors believes in excellence, innovation, and passion for
 							creating the best software development solutions for our global
 							client base.
+							We aim to disrupt the conventional and lead with innovation.
+							
 						</p>
 					</div>
 					<div className="col-lg-6 col-md-6 col-sm-12 px-4"></div>

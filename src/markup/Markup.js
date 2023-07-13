@@ -98,7 +98,7 @@ class Markup extends Component {
                         <Route path='/login' exact component={Login} />
                         <Route path='/register' exact component={Register} />
                         <Route path='/contact' exact component={Contact} />
-                        <Route path='/services' exact component={Service} />
+                        <Route path='/services/:serviceName' exact component={Service} />
                         <Route path='/services-details' exact component={ServicesDetails} />
 
 
@@ -116,8 +116,9 @@ class Markup extends Component {
                         <Route path='/blog-list-right-sidebar' exact component={BlogListRightSidebar} />
                         <Route path='/blog-details' exact component={BlogDetails} />
                         <Route path='/portfolio-full-width' exact component={ProtfolioFullWidth} />
+                        <Route path='/portfolio' exact component={OurPortfolio} />
                         <Route path='/portfolio' exact component={PortfolioGrid2} />
-                        <Route path='/portfolioo' exact component={OurPortfolio} />
+                        
                         <Route path='/portfolio-grid-3' exact component={PortfolioGrid3} />
                         <Route path='/portfolio-grid-4' exact component={PortfolioGrid4} />
                         <Route path='/shop-columns' exact component={ShopColumns} />
