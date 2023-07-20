@@ -141,7 +141,7 @@ const OurPortfolio = () => {
 															<div className="col-3 ">
 																{' '}
 																<img
-																	src={flutter}
+																	src={item.image1}
 																	className="mr-3"
 																	alt="react"
 																	width="30px"
@@ -151,31 +151,31 @@ const OurPortfolio = () => {
 															<div className="col-3">
 																{' '}
 																<img
-																	src={react}
+																	src={item.image2}
 																	className="mr-3"
 																	alt="react"
-																	width="23px"
-																	height="23px"
+																	width="30px"
+																	height="30px"
 																/>
 															</div>{' '}
 															<div className="col-3">
 																{' '}
 																<img
-																	src={node}
+																	src={item.image3}
 																	className="mr-3"
 																	alt="react"
-																	width="23px"
-																	height="23px"
+																	width="30px"
+																	height="30px"
 																/>
 															</div>{' '}
 															<div className="col-3">
 																{' '}
 																<img
-																	src={python}
+																	src={item.image4}
 																	className="mr-3"
 																	alt="react"
-																	width="23px"
-																	height="23px"
+																	width="30px"
+																	height="30px"
 																/>
 															</div>
 														</div>

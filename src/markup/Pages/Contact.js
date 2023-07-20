@@ -26,7 +26,11 @@ class Contact extends Component {
                                                         <span className="icon-sm text-primary text-left"><i className="ti-location-pin"></i></span>
                                                         Company Address
                                                     </h5>
-                                                    <p>08046 Willingboro, NewJersey </p>
+                                                    <p>DevDisruptors LLC,<br/>
+563 High Street
+Suite B PMB 1137
+Burlington, NJ 08016<br/>
+USA</p>
                                                     <h6 className="m-b15 font-weight-400"><i className="ti-alarm-clock"></i> Office Hours</h6>
                                                     <p className="m-b0">Mon To Sat - 08.00am-04.00pm(EST)</p>
                                                     <p>Sunday - Close</p>
