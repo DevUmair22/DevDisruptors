@@ -1,34 +1,34 @@
-import android from '../../images/new-icons/android.svg'
 import Angular from '../../images/new-icons/Angular.svg'
-import ios from '../../images/new-icons/apple-icon.svg'
 import asp from '../../images/new-icons/Asp.svg'
+import elementor from '../../images/new-icons/Elementor.svg'
+import Next from '../../images/new-icons/Next.svg'
+import Vue from '../../images/new-icons/Vue.svg'
+import wix from '../../images/new-icons/Wix.svg'
+import wooc from '../../images/new-icons/WooCommerce-Logo.wine.png'
+import android from '../../images/new-icons/android.svg'
+import ios from '../../images/new-icons/apple-icon.svg'
 import bigcom from '../../images/new-icons/bigcommerce.svg'
 import anal from '../../images/new-icons/data-analytics.png'
 import weeb from '../../images/new-icons/data.png'
-import elementor from '../../images/new-icons/Elementor.svg'
+// import devops from '../../images/new-icons/devops.png'
 import flutter from '../../images/new-icons/flutter.svg'
 import ionic from '../../images/new-icons/ionic.svg'
 import kotlin from '../../images/new-icons/kotlin.svg'
 import laravel from '../../images/new-icons/laravel.svg'
 import mob from '../../images/new-icons/mobile-phone.png'
-import Next from '../../images/new-icons/Next.svg'
 import react from '../../images/new-icons/react-native.svg'
 import doc from '../../images/new-icons/sheet.png'
 import shopify from '../../images/new-icons/shopify.svg'
 import tech from '../../images/new-icons/technical-support.png'
-import Vue from '../../images/new-icons/Vue.svg'
 import ux from '../../images/new-icons/wireframe.png'
-import wix from '../../images/new-icons/Wix.svg'
-import wooc from '../../images/new-icons/WooCommerce-Logo.wine.png'
 import wordpress from '../../images/new-icons/wordpress.svg'
 import www from '../../images/new-icons/www.png'
-import devops from '../../images/new-icons/devops.png'
-import cloudservice from '../../images/new-icons/cloud-service.png'
-import intelligence from '../../images/new-icons/intelligence.png'
-import digitalmarketing1 from '../../images/new-icons/digitalmarketing1.png'
-import digitalmarketing2 from '../../images/new-icons/digitalmarketing2.png'
-import digitalmarketing3 from '../../images/new-icons/digitalmarketing3.png'
-import digitalmarketing4 from '../../images/new-icons/digitalmarketing4.png'
+// import cloudservice from '../../images/new-icons/cloud-service.png'
+// import digitalmarketing1 from '../../images/new-icons/digitalmarketing1.png'
+// import digitalmarketing2 from '../../images/new-icons/digitalmarketing2.png'
+// import digitalmarketing3 from '../../images/new-icons/digitalmarketing3.png'
+// import digitalmarketing4 from '../../images/new-icons/digitalmarketing4.png'
+// import intelligence from '../../images/new-icons/intelligence.png'
 
 const serviceData = [
 	{
@@ -294,14 +294,14 @@ const services = [
 		icon: (
 			<img src={weeb} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: "webapplicationdevelopment",
+		routes: 'webapplicationdevelopment',
 	},
 	{
 		title: 'Mobile Application Development',
 		icon: (
 			<img src={mob} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: "mobileapplicationdevelopment",
+		routes: 'mobileapplicationdevelopment',
 	},
 	{
 		title: 'UI/UX Design',
@@ -322,7 +322,7 @@ const services = [
 		icon: (
 			<img src={tech} className="mr-3" alt="react" width="25px" height="25px" />
 		),
-		routes: "maintenanceandsupport",
+		routes: 'maintenanceandsupport',
 	},
 	{
 		title: 'Digital Analytics and Marketing',
@@ -340,27 +340,45 @@ const services = [
 		),
 		routes: `testautomation`,
 	},
-	{
-		title: 'DEVOPS SERVICES',
-		icon: (
-			<img src={devops} className="mr-3" alt="react" width="25px" height="25px" />
-		),
-		routes: `devOps`,
-	},
-	{
-		title: 'CLOUD SERVICES',
-		icon: (
-			<img src={cloudservice} className="mr-3" alt="react" width="25px" height="25px" />
-		),
-		routes: `cloudservcies`,
-	},
-	{
-		title: 'DATA SCIENCE/AI SERVICES',
-		icon: (
-			<img src={intelligence} className="mr-3" alt="react" width="25px" height="25px" />
-		),
-		routes: `datascience`,
-	},
+	// {
+	// 	title: 'DEVOPS SERVICES',
+	// 	icon: (
+	// 		<img
+	// 			src={devops}
+	// 			className="mr-3"
+	// 			alt="react"
+	// 			width="25px"
+	// 			height="25px"
+	// 		/>
+	// 	),
+	// 	routes: `devOps`,
+	// },
+	// {
+	// 	title: 'CLOUD SERVICES',
+	// 	icon: (
+	// 		<img
+	// 			src={cloudservice}
+	// 			className="mr-3"
+	// 			alt="react"
+	// 			width="25px"
+	// 			height="25px"
+	// 		/>
+	// 	),
+	// 	routes: `cloudservcies`,
+	// },
+	// {
+	// 	title: 'DATA SCIENCE/AI SERVICES',
+	// 	icon: (
+	// 		<img
+	// 			src={intelligence}
+	// 			className="mr-3"
+	// 			alt="react"
+	// 			width="25px"
+	// 			height="25px"
+	// 		/>
+	// 	),
+	// 	routes: `datascience`,
+	// },
 ]
 
 const projects = [
@@ -369,10 +387,10 @@ const projects = [
 		shortDescription:
 			'A robust digital marketing platform for an equestrian-focused agency.',
 		industry: 'Equestrian Sports',
-		image1:digitalmarketing1,
-		image2:digitalmarketing2,
-		image3:digitalmarketing3,
-		image4:digitalmarketing4,
+		// image1: digitalmarketing1,
+		// image2: digitalmarketing2,
+		// image3: digitalmarketing3,
+		// image4: digitalmarketing4,
 		projectDescription:
 			'This project involved developing a robust digital marketing platform for an equestrian-focused agency. The company aimed to revolutionize the industry by offering both innovative and user-friendly tech solutions to help equestrians focus on their passion while the platform managed the digital landscape. The DevDisruptors team worked closely with the client to understand their requirements and deliver a comprehensive suite of services.',
 		servicesProvided: [
@@ -458,7 +476,7 @@ const projects = [
 		shortDescription:
 			'An advanced logistics and supply chain management system to streamline operations and ensure efficient and effective transportation practices.',
 		industry: 'Logistics and Transportation',
-	
+
 		projectDescription:
 			'DevDisruptors developed an advanced logistics and supply chain management system for a client to streamline their operations and ensure efficient and effective transportation practices. From domestic drayage to global shipments, distribution, storage, and everything in between, the solution provided end-to-end management and visibility of their processes.',
 		servicesProvided: [
@@ -777,4 +795,4 @@ const projects = [
 	},
 ]
 
-export { serviceData, services, projects }
+export { projects, serviceData, services }

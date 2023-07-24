@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 import { TabContent, TabPane } from "reactstrap";
 
 //Images
-import pic5 from "./../../images/about/pic5.svg";
-import pic6 from "./../../images/about/pic6.svg";
-import pic7 from "./../../images/about/pic7.svg";
-import pic8 from "./../../images/about/pic8.svg";
-import pic9 from "./../../images/about/pic9.svg";
+// import pic5 from "./../../images/about/pic5.svg";
+// import pic6 from "./../../images/about/pic6.svg";
+// import pic7 from "./../../images/about/pic7.svg";
+// import pic8 from "./../../images/about/pic8.svg";
 
 function Para(index) {
 
@@ -171,7 +170,7 @@ const HomeTab = (props) => {
               <TabPane tabId="1">
                 <div className="row p-tb50">
                   <div className="col-lg-6 m-b10 col-md-4 about1-img ">
-                    <img src={pic5} alt="" />
+                    {/* <img src={pic5} alt="" /> */}
                   </div>
                   <div className="col-lg-6 col-md-8 text-white">
                     <div className="p-l30 " style={{ textAlign: "left" }}>
@@ -195,7 +194,7 @@ const HomeTab = (props) => {
               <TabPane tabId="2">
                 <div className="row p-tb50">
                   <div className="col-lg-6 col-md-4 about1-img">
-                    <img src={pic6} alt="" />
+                    {/* <img src={pic6} alt="" /> */}
                   </div>
                   <div className="col-lg-6 col-md-8 text-white">
                     <div className="p-l30" style={{ textAlign: "left" }}>
@@ -219,7 +218,7 @@ const HomeTab = (props) => {
               <TabPane tabId="3">
                 <div className="row p-tb50">
                   <div className="col-lg-6 col-md-4 about1-img">
-                    <img src={pic7} alt="" />
+                    {/* <img src={pic7} alt="" /> */}
                   </div>
                   <div className="col-lg-6 col-md-8 text-white">
                     <div className="p-l30" style={{ textAlign: "left" }}>
@@ -243,7 +242,7 @@ const HomeTab = (props) => {
               <TabPane tabId="4">
                 <div className="row p-tb50">
                   <div className="col-lg-6 col-md-4 about1-img">
-                    <img src={pic8} alt="" />
+                    {/* <img src={pic8} alt="" /> */}
                   </div>
                   <div className="col-lg-6 col-md-8 text-white">
                     <div className="p-l30" style={{ textAlign: "left" }}>
