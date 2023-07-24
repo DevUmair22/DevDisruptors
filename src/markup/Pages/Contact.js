@@ -26,11 +26,11 @@ class Contact extends Component {
                                                         <span className="icon-sm text-primary text-left"><i className="ti-location-pin"></i></span>
                                                         Company Address
                                                     </h5>
-                                                    <p>DevDisruptors LLC,<br/>
-563 High Street
-Suite B PMB 1137
-Burlington, NJ 08016<br/>
-USA</p>
+                                                    <p>DevDisruptors LLC,<br />
+                                                        563 High Street
+                                                        Suite B PMB 1137
+                                                        Burlington, NJ 08016<br />
+                                                        USA</p>
                                                     <h6 className="m-b15 font-weight-400"><i className="ti-alarm-clock"></i> Office Hours</h6>
                                                     <p className="m-b0">Mon To Sat - 08.00am-04.00pm(EST)</p>
                                                     <p>Sunday - Close</p>
@@ -44,11 +44,11 @@ USA</p>
                                                         <span className="icon-sm text-primary text-left"><i className="ti-email"></i></span>
                                                         E-mail
                                                     </h5>
-                                                    <p className="m-b0" onClick={()=>window.location.href='mailto:contact@devdisruptors.com'} style={{cursor:"pointer"}}>contact@devdisruptors.com</p>
+                                                    <p className="m-b0" onClick={() => window.location.href = 'mailto:contact@devdisruptors.com'} style={{ cursor: "pointer" }}>contact@devdisruptors.com</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-12 col-md-6 m-b30 ">
+                                        {/* <div className="col-lg-12 col-md-6 m-b30 ">
                                             <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm">
                                                 <div className="icon-content">
                                                     <h5 className="dlab-tilte">
@@ -58,7 +58,7 @@ USA</p>
                                                     <p onClick={()=>window.location.href='tel:+00 0111-123456'} style={{cursor:"pointer"}}>+00 0111-123456</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="col-lg-8 col-xs-8">

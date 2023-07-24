@@ -35,13 +35,38 @@ const HomeForm = () => {
 	}
 	return (
 		<>
+			{isLargeScreen ? console.log('large') : console.log('notLarge')}
 			<div
-				className="container px-5 position-relative"
+				className="container "
 				style={{
-					backgroundColor: 'black',
-					top: isSmallScreen ? '0rem' : '2rem' || isLargeScreen?  '10rem' : '2rem' ,
-					left: isSmallScreen ? '1rem' : '3rem'|| isLargeScreen?'3rem' : '3rem',
+					zIndex: 8,
+
+					top: isSmallScreen
+						? '0rem'
+						: '50% ' || isMidScreen
+						? '50%'
+						: '5rem' || isLargeScreen
+						? '50%'
+						: '5rem',
+					left: isSmallScreen
+						? '0%'
+						: '0rem ' || isMidScreen
+						? '4%'
+						: '0%' || isLargeScreen
+						? '25%'
+						: '0rem',
+					position: 'absolute',
+					// top: isSmallScreen
+					// 	? '0rem'
+					// 	: '0.5rem' || isLargeScreen
+					// 	? '0.5rem'
+					// 	: '0.5rem',
 				}}
+
+				// 	backgroundColor: 'black',
+				//
+				// 	left: isSmallScreen ? '1rem' : '3rem'|| isLargeScreen?'3rem' : '3rem',
+				// }}
 			>
 				{/* <form className="row g-3">
 					<div className="col-4">
@@ -75,16 +100,18 @@ const HomeForm = () => {
 					</div>
 				</form> */}
 				<form
-					className="inquiry-form dzForm row position-absolute py-3 px-6"
+					className="inquiry-form dzForm row py-3 px-6"
 					style={{
 						borderRadius: '1rem',
 						backgroundColor: 'white',
 						border: '1px solid white',
+
+						justifyContent: 'center',
 						width: '80%',
 						zIndex: '6',
-						textAlign:"center",
-						alignItems:"center",
-						justifyContent:"center",
+						margin: '0 auto 0 auto',
+						textAlign: 'center',
+						alignItems: 'center',
 					}}
 					ref={form}
 					onSubmit={sendEmail}
