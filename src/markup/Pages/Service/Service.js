@@ -1,11 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
+import { useParams } from 'react-router-dom';
 import Footer2 from "../../Element/Footer";
-import HomeForm from "./../../Element/HomeForm";
-import SectionCounter from "./../../Element/SectionCounter";
 import Footer from "./../../Layout/Footer1";
 import Header from "./../../Layout/Header1";
 import { data } from "./ServiceContent";
-import {useParams} from 'react-router-dom'
 //Images
 const iconBlog = [
   {
@@ -92,122 +90,122 @@ const Service = () => {
   // console.log(ServiceData);
 
   // render() {
-    const testing = window.location.search;
-    // const urlparam = new URLSearchParams(testing);
-    // const products = urlparam.get("id");
-    const {serviceName} = useParams()
-    const title = "Our Services";
-    const para =
-      "DevDisruptors is a well reputed development company providing expertise in Python development to ensure seamless performance of web applications.";
-    return (
-      <>
-        <Header />
+  const testing = window.location.search;
+  // const urlparam = new URLSearchParams(testing);
+  // const products = urlparam.get("id");
+  const { serviceName } = useParams()
+  const title = "Our Services";
+  const para =
+    "DevDisruptors is a well reputed development company providing expertise in Python development to ensure seamless performance of web applications.";
+  return (
+    <>
+      <Header />
 
-        <div className="page-content bg-white">
-          {/* <!-- inner page banner --> */}
-          {/* <div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bnr5 + ")", height: "30vh" }}>
+      <div className="page-content bg-white">
+        {/* <!-- inner page banner --> */}
+        {/* <div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bnr5 + ")", height: "30vh" }}>
 
                     </div> */}
-          {/* <!-- inner page banner END --> */}
-          <div className="content-block pt-1">
-            {/* <!-- About Us --> */}
-            <div className="section-full content-inner ">
-              <div
-                className="section-full content-inner-1 overlay-primary-dark about-service pb-5 pt-5 "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)",
-                }}
-              >
-                <div className="container">
-                  {data.map((item, i) => {
-                    if (item.id && item.route === serviceName) {
-                      const headingData = item.pageHeading;
-                      return headingData.map((miniItem, i) => (
-                        <div
-                          className="section-head text-white text-center"
-                          key={i}
+        {/* <!-- inner page banner END --> */}
+        <div className="content-block pt-1">
+          {/* <!-- About Us --> */}
+          <div className="section-full content-inner ">
+            <div
+              className="section-full content-inner-1 overlay-primary-dark about-service pb-5 pt-5 "
+              style={{
+                backgroundImage:
+                  "linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)",
+              }}
+            >
+              <div className="container">
+                {data.map((item, i) => {
+                  if (item.id && item.route === serviceName) {
+                    const headingData = item.pageHeading;
+                    return headingData.map((miniItem, i) => (
+                      <div
+                        className="section-head text-white text-center"
+                        key={i}
+                      >
+                        <h2
+                          className="box-title mx-auto max-w800 text-capitalize pt-4"
+                          style={{ marginTop: "1rem" }}
                         >
-                          <h2
-                            className="box-title mx-auto max-w800 text-capitalize pt-4"
-                            style={{ marginTop: "1rem" }}
-                          >
-                            {miniItem.mainTitle}
-                            <p style={{ fontWeight: "400" }}>
-                              {miniItem.mainDescription}
-                            </p>
-                          </h2>
-                        </div>
-                      ));
-                    }
-                    return null; // Return null if the condition doesn't match
-                  })}
-                </div>
-
-                <div className="container">
-                  <div className="row text-white">
-                    {data.map((item, i) => (
-                      <>
-                                              
-
-                        {item.id && item.route === serviceName ? (
-                          <>
-                            {item.data.length
-                              ? item.data.map((itemm) => (
-                                  <div
-                                    className="col-lg-3 col-md-6 col-sm-6 "
-                                    key={i}
-                                  >
-                                    <div
-                                      className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4"
-                                      style={{ minHeight: '22rem' }}
-                                    >
-                                      {/* <div className="icon-lg text-white ">{item.icon}</div> */}
-                                      <div className="icon-content">
-                                        <h5
-                                          className="dlab-tilte text-uppercase"
-                                          style={{ color: "#6dbe14" }}
-                                        >
-                                          {itemm.title}
-                                        </h5>
-                                        <p>{itemm.description}</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                ))
-                              : item.data.map((itemm) => (
-                                  <div
-                                    className="col-lg-4 col-md-6 col-sm-6 "
-                                    key={i}
-                                  >
-                                    <div
-                                      className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4 "
-                                      // style={{ minHeight: '29rem' }}
-                                    >
-                                      {/* <div className="icon-lg text-white ">{item.icon}</div> */}
-                                      <div className="icon-content">
-                                        <h5
-                                          className="dlab-tilte text-uppercase"
-                                          style={{ color: "#6dbe14" }}
-                                        >
-                                          {itemm.title}
-                                        </h5>
-                                        <p>{itemm.description}</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                ))}{" "}
-                          </>
-                        ) : (
-                          <></>
-                        )}
-                      </>
-                    ))}
-                  </div>
-                </div>
+                          {miniItem.mainTitle}
+                          <p style={{ fontWeight: "400" }}>
+                            {miniItem.mainDescription}
+                          </p>
+                        </h2>
+                      </div>
+                    ));
+                  }
+                  return null; // Return null if the condition doesn't match
+                })}
               </div>
 
-              {/* <div className="container">
+              <div className="container">
+                <div className="row text-white">
+                  {data.map((item, i) => (
+                    <>
+
+
+                      {item.id && item.route === serviceName ? (
+                        <>
+                          {item.data.length
+                            ? item.data.map((itemm) => (
+                              <div
+                                className="col-lg-3 col-md-6 col-sm-6 "
+                                key={i}
+                              >
+                                <div
+                                  className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4"
+                                  style={{ minHeight: '22rem' }}
+                                >
+                                  {/* <div className="icon-lg text-white ">{item.icon}</div> */}
+                                  <div className="icon-content">
+                                    <h5
+                                      className="dlab-tilte text-uppercase"
+                                      style={{ color: "#6dbe14" }}
+                                    >
+                                      {itemm.title}
+                                    </h5>
+                                    <p>{itemm.description}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            ))
+                            : item.data.map((itemm) => (
+                              <div
+                                className="col-lg-4 col-md-6 col-sm-6 "
+                                key={i}
+                              >
+                                <div
+                                  className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4 "
+                                // style={{ minHeight: '29rem' }}
+                                >
+                                  {/* <div className="icon-lg text-white ">{item.icon}</div> */}
+                                  <div className="icon-content">
+                                    <h5
+                                      className="dlab-tilte text-uppercase"
+                                      style={{ color: "#6dbe14" }}
+                                    >
+                                      {itemm.title}
+                                    </h5>
+                                    <p>{itemm.description}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}{" "}
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="container">
                                 <div className="row ">
                                     {iconBox.map((data, index) => (
                                         <div className="col-md-4 col-sm-6 m-b30 " key={index}>
@@ -224,13 +222,13 @@ const Service = () => {
                                     ))}
                                 </div>
                             </div> */}
-            </div>
-            {/* <!-- Our Services --> */}
-            {/* <!-- Why Chose Us --> */}
-            {/* <SectionCounter /> */}
+          </div>
+          {/* <!-- Our Services --> */}
+          {/* <!-- Why Chose Us --> */}
+          {/* <SectionCounter /> */}
 
-            {/* <!-- Why Chose Us End --> */}
-            {/* <div className="section-full content-inner-1">
+          {/* <!-- Why Chose Us End --> */}
+          {/* <div className="section-full content-inner-1">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
@@ -311,8 +309,8 @@ const Service = () => {
                                 </div>
                             </div>
                         </div> */}
-            {/* <!-- Testimonials --> */}
-            {/* <div className="section-full content-inner "   style={{ backgroundImage: "url(" + bgmap + ")", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+          {/* <!-- Testimonials --> */}
+          {/* <div className="section-full content-inner "   style={{ backgroundImage: "url(" + bgmap + ")", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">
                                 <div className="section-head text-center">
                                     <h2 className="box-title m-tb0">Our Testimonials<span className="bg-primary"></span></h2>
@@ -323,44 +321,42 @@ const Service = () => {
                                 </div>
                             </div>
                         </div> */}
-            {/* <!-- Testimonials END --> */}
-            {/* <!-- Get in touch --> */}
-            <div
-              style={{
-                height: "20vh",
-                marginBottom: "5rem",
-                paddingTop: "1rem",
-              }}
-            >
-              <HomeForm />
-            </div>
-            <div
-              className="section-full overlay-primary-dark bg-img-fix "
-              style={{
-                backgroundImage:
-                  "linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)",
-                zIndex: 5,
-                paddingTop: "10rem",
-              }}
-            >
-              {/* <FormStyle /> */}
-              <Footer2 />
-              <div className="row pt-4">
-                <div
-                  className="col-lg-12 col-md-12 col-sm-12  "
-                  style={{ backgroundColor: "#6CC000", zIndex: 10 }}
-                >
-                  {" "}
-                </div>
+          {/* <!-- Testimonials END --> */}
+          {/* <!-- Get in touch --> */}
+          {/* <div className="overlay-primary-light" style={{
+            backgroundImage:
+              "linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)",
+            height: "10rem", position: "relative",
+          }}>
+            <HomeForm />
+          </div> */}
+          <div
+            className="section-full overlay-primary-dark bg-img-fix "
+            style={{
+              backgroundImage:
+                "linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)",
+              zIndex: 5,
+              paddingTop: "10rem",
+            }}
+          >
+            {/* <FormStyle /> */}
+            <Footer2 />
+            <div className="row pt-4">
+              <div
+                className="col-lg-12 col-md-12 col-sm-12  "
+                style={{ backgroundColor: "#6CC000", zIndex: 10 }}
+              >
+                {" "}
               </div>
-              <Footer />
             </div>
-            {/* <!-- Get in touch --> */}
+            <Footer />
           </div>
-          {/* <!-- contact area END --> */}
+          {/* <!-- Get in touch --> */}
         </div>
-      </>
-    );
+        {/* <!-- contact area END --> */}
+      </div >
+    </>
+  );
   // }
 }
 export default Service;

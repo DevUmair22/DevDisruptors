@@ -1,13 +1,16 @@
+import xd from '../../images/new-icons/Adobe.svg'
 import Angular from '../../images/new-icons/Angular.svg'
 import asp from '../../images/new-icons/Asp.svg'
-import elementor from '../../images/new-icons/Elementor.svg'
+import figma from '../../images/new-icons/Figma.svg'
+import invis from '../../images/new-icons/Invision.png'
 import Next from '../../images/new-icons/Next.svg'
+import sketch from '../../images/new-icons/Sketch.svg'
 import Vue from '../../images/new-icons/Vue.svg'
-import wix from '../../images/new-icons/Wix.svg'
-import wooc from '../../images/new-icons/WooCommerce-Logo.wine.png'
+import webflow from '../../images/new-icons/Webflow.svg'
+import illustrator from '../../images/new-icons/illustrator.svg'
+
 import android from '../../images/new-icons/android.svg'
 import ios from '../../images/new-icons/apple-icon.svg'
-import bigcom from '../../images/new-icons/bigcommerce.svg'
 import anal from '../../images/new-icons/data-analytics.png'
 import weeb from '../../images/new-icons/data.png'
 // import devops from '../../images/new-icons/devops.png'
@@ -57,7 +60,6 @@ import shipping1 from '../../images/new-icons/shipping1.png'
 import shipping2 from '../../images/new-icons/shipping2.png'
 import shipping3 from '../../images/new-icons/shipping3.png'
 import shipping4 from '../../images/new-icons/shipping4.png'
-import shopify from '../../images/new-icons/shopify.svg'
 import shopify1 from '../../images/new-icons/shopify1.png'
 import shopify2 from '../../images/new-icons/shopify2.png'
 import shopify3 from '../../images/new-icons/shopify3.png'
@@ -76,7 +78,6 @@ import vote2 from '../../images/new-icons/vote2.png'
 import vote3 from '../../images/new-icons/vote3.png'
 import vote4 from '../../images/new-icons/vote4.png'
 import ux from '../../images/new-icons/wireframe.png'
-import wordpress from '../../images/new-icons/wordpress.svg'
 import www from '../../images/new-icons/www.png'
 
 const serviceData = [
@@ -89,7 +90,7 @@ const serviceData = [
 				{' '}
 				<i className="flaticon-devices"></i>
 			</span>
-		),
+		),routes: 'webapplicationdevelopment',
 		service: [
 			{
 				icon: (
@@ -166,7 +167,7 @@ const serviceData = [
 		],
 	},
 	{
-		name: 'Ecommerce Development',
+		name: 'UI/UX Design',
 		headicon: (
 			<span
 				style={{ lineHeight: '4.5rem', fontSize: '3.8rem', color: '#6db314' }}
@@ -174,79 +175,79 @@ const serviceData = [
 				{' '}
 				<i className="flaticon-shop"></i>
 			</span>
-		),
+		),		routes: `ui-ux-design`,
 		service: [
 			{
 				icon: (
 					<img
-						src={wooc}
+						src={webflow}
 						className="mr-3"
 						alt="react"
 						width="25px"
 						height="25px"
 					/>
 				),
-				title: 'Woo Commerce',
+				title: 'Webflow',
 			},
 			{
 				icon: (
 					<img
-						src={wordpress}
+						src={xd}
 						className="mr-3"
 						alt="react"
 						width="23px"
 						height="23px"
 					/>
 				),
-				title: 'Wordpress',
+				title: 'Adobe XD',
 			},
 			{
 				icon: (
 					<img
-						src={wix}
+						src={invis}
 						className="mr-3"
 						alt="react"
 						width="23px"
 						height="23px"
 					/>
 				),
-				title: 'Wix',
+				title: 'InVision',
 			},
 			{
 				icon: (
 					<img
-						src={shopify}
+						src={sketch}
 						className="mr-3"
 						alt="react"
 						width="23px"
 						height="23px"
 					/>
 				),
-				title: 'Shopify',
+				title: 'Sketch',
 			},
 			{
 				icon: (
 					<img
-						src={bigcom}
+						src={figma}
 						className="mr-3"
 						alt="react"
 						width="23px"
 						height="23px"
 					/>
 				),
-				title: 'Bigcommerce',
+				title: 'Figma',
 			},
 			{
 				icon: (
 					<img
-						src={elementor}
+						src={illustrator}
 						className="mr-3"
 						alt="react"
 						width="23px"
 						height="23px"
 					/>
 				),
-				title: 'Elementor',
+				title: 'Adobe Illustrator',
 			},
 		],
 	},
@@ -259,7 +260,7 @@ const serviceData = [
 				{' '}
 				<i className="flaticon-smartphone"></i>
 			</span>
-		),
+		),		routes: 'mobileapplicationdevelopment',
 		service: [
 			{
 				icon: (

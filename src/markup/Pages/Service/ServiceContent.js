@@ -200,7 +200,7 @@
 export const data = [
   {
     id: 1,
-    route:"webapplicationdevelopment",
+    route: "webapplicationdevelopment",
     data: [
       {
         title: "Front-end Development",
@@ -253,16 +253,16 @@ export const data = [
         icon: ""
       }
     ],
-    pageHeading:[
+    pageHeading: [
       {
-      mainTitle:"Web Development Services", 
-      mainDescription:"Does Your Business Require A Website Or Web Application? DevDisruptors Offers A Wide Range Of Web Development Services From Creating, Building, And Maintaining Websites And Web Apps."
-    }
+        mainTitle: "Web Development Services",
+        mainDescription: "Does Your Business Require A Website Or Web Application? DevDisruptors Offers A Wide Range Of Web Development Services From Creating, Building, And Maintaining Websites And Web Apps."
+      }
     ]
   },
   {
     id: 2,
-    route:"mobileapplicationdevelopment",
+    route: "mobileapplicationdevelopment",
     data: [
       {
         title: "Mobile Application Design",
@@ -326,18 +326,18 @@ export const data = [
         description: "Mobile development services offer assistance with publishing and submitting the app to the Google Play Store for Android apps and the App Store for Apple apps. This includes meeting the store's guidelines, preparing assets, and managing the submission process. ",
         icon: ""
       }
-     
+
     ]
     ,
-    pageHeading:[
-    {
-      mainTitle:"Mobile Application Development Services", 
-      mainDescription:"DevDisruptors offers mobile app development for both iOS (Apple devices) and Android (Google devices), from coding and designing to testing and deploying applications."
- 
-    }
+    pageHeading: [
+      {
+        mainTitle: "Mobile Application Development Services",
+        mainDescription: "DevDisruptors offers mobile app development for both iOS (Apple devices) and Android (Google devices), from coding and designing to testing and deploying applications."
+
+      }
     ]
   },
-  
+
   {
     id: 3,
     route: `ui-ux-design`,
@@ -380,15 +380,15 @@ export const data = [
         description: "Usability testing involves observing and collecting feedback from users while they interact with a digital product.",
         icon: ""
       }
-           
+
     ]
     ,
-    pageHeading:[
-    {
-      mainTitle:"UI-UX", 
-      mainDescription:"UI (User Interface) and UX (User Experience) are closely related disciplines that aim to optimize the interaction between users and digital products."
- 
-    }
+    pageHeading: [
+      {
+        mainTitle: "UI/UX Designing",
+        mainDescription: "UI (User Interface) and UX (User Experience) are closely related disciplines that aim to optimize the interaction between users and digital products."
+
+      }
     ]
   },
   {
@@ -400,7 +400,7 @@ export const data = [
         description: "This describes how developers can integrate and use the API effectively in their applications.",
         icon: ""
       },
-      
+
       {
         title: "Code Comments",
         description: "Code comments help other developers understand the code more easily and provide context for future modifications or bug fixes.",
@@ -446,13 +446,13 @@ export const data = [
         description: "These provide a summary of new features, improvements, and any known issues associated with each release.",
         icon: ""
       },
-    ] ,
-    pageHeading:[
-    {
-      mainTitle:"TECHNICAL DOCUMENTATION", 
-      mainDescription:"Technical documentation aims to assist users, developers, administrators, and other stakeholders in understanding and effectively utilizing a particular technology or solution."
- 
-    }
+    ],
+    pageHeading: [
+      {
+        mainTitle: "TECHNICAL DOCUMENTATION",
+        mainDescription: "Technical documentation aims to assist users, developers, administrators, and other stakeholders in understanding and effectively utilizing a particular technology or solution."
+
+      }
     ]
   },
   {
@@ -500,13 +500,13 @@ export const data = [
         icon: ""
       },
     ],
-    pageHeading:[
+    pageHeading: [
       {
-        mainTitle:"MAINTENANCE AND SUPPORT", 
-        mainDescription:"Maintenance and support services help businesses maximize the value of their software investment and provide users with a positive and hassle-free experience."
-   
+        mainTitle: "MAINTENANCE AND SUPPORT",
+        mainDescription: "Maintenance and support services help businesses maximize the value of their software investment and provide users with a positive and hassle-free experience."
+
       }
-      ]
+    ]
   },
   {
     id: 6,
@@ -568,13 +568,13 @@ export const data = [
         icon: ""
       },
     ],
-    pageHeading:[
+    pageHeading: [
       {
-        mainTitle:"DIGITAL ANALYTICS AND MARKETING", 
-        mainDescription:"Digital analytics and marketing services utilize data and insights to inform marketing strategies, improve campaign performance, and enhance the overall digital presence of your business."
-   
+        mainTitle: "DIGITAL ANALYTICS AND MARKETING",
+        mainDescription: "Digital analytics and marketing services utilize data and insights to inform marketing strategies, improve campaign performance, and enhance the overall digital presence of your business."
+
       }
-      ]
+    ]
   },
   {
     id: 7,
@@ -611,14 +611,14 @@ export const data = [
         icon: ""
       },
     ],
-    pageHeading:[
+    pageHeading: [
       {
-        mainTitle:"WEB SCRAPING AND AUTOMATION", 
-        mainDescription:" These services help businesses gather valuable information, streamline processes, and gain efficiency in various areas."
-   
+        mainTitle: "WEB SCRAPING AND AUTOMATION",
+        mainDescription: " These services help businesses gather valuable information, streamline processes, and gain efficiency in various areas."
+
       }
-      ]
-  }  ,
+    ]
+  },
   {
     id: 8,
     route: `devOps`,
@@ -653,17 +653,17 @@ export const data = [
         description: "DevOps services can also help integrate and streamline your organization's tools to enable seamless collaboration and automation. This may involve integrating version control systems, issue tracking systems, testing frameworks, and deployment tools.",
         icon: ""
       },
-    
-  ],
-  pageHeading:[
-    {
-      mainTitle:"DEVOPS SERVICES", 
-      mainDescription:"DevDisruptors aims to assist your business in achieving faster software delivery, improved collaboration, and increased operational efficiency."
- 
-    }
+
+    ],
+    pageHeading: [
+      {
+        mainTitle: "DEVOPS SERVICES",
+        mainDescription: "DevDisruptors aims to assist your business in achieving faster software delivery, improved collaboration, and increased operational efficiency."
+
+      }
     ]
   }
-,  {
+  , {
     id: 9,
     route: `cloudservcies`,
     data: [
@@ -707,12 +707,12 @@ export const data = [
         description: "Cloud-based code repositories, such as GitHub, GitLab, and Bitbucket, provide version control, collaboration features, and integration with other development tools. Developers can store, manage, and collaborate on code repositories in the cloud.",
         icon: ""
       },
-  ],
-  pageHeading:[
-    {
-      mainTitle:"CLOUD SERVICES", 
-      mainDescription:"Cloud platforms offer an extensive range of services that enable developers to build, deploy, and scale applications efficiently and cost-effectively."
-    }
+    ],
+    pageHeading: [
+      {
+        mainTitle: "CLOUD SERVICES",
+        mainDescription: "Cloud platforms offer an extensive range of services that enable developers to build, deploy, and scale applications efficiently and cost-effectively."
+      }
     ]
   },
   {
@@ -740,13 +740,13 @@ export const data = [
         icon: ""
       },
     ],
-    pageHeading:[
+    pageHeading: [
       {
-        mainTitle:"DATA SCIENCE/AI SERVICES", 
-        mainDescription:"Data science and artificial intelligence (AI) services provide frameworks, libraries, and APIs that enable developers to leverage data science and AI capabilities in their applications."
+        mainTitle: "DATA SCIENCE/AI SERVICES",
+        mainDescription: "Data science and artificial intelligence (AI) services provide frameworks, libraries, and APIs that enable developers to leverage data science and AI capabilities in their applications."
       }
-      ]
-    }
+    ]
+  }
   // {
   //   id: 3,
   //   data: [

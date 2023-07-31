@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom'
 import icon from './../../images/new-icons/arrow-right-white.svg'
 import { serviceData } from './data'
 
@@ -37,7 +38,7 @@ const Servicee = () => {
 												Development
 											</h4>
 										) : (
-											<h4 className="m-0">{service.name}</h4>
+											<h4 className="mt-auto">{service.name}</h4>
 										)}
 									</div>
 									{service.service.map((item) => (
@@ -53,7 +54,7 @@ const Servicee = () => {
 								</div>
 								<div className="pt-1">
 									<label class="mb-0 read-more-btn mt-4 mt-md-2 mt-lg-4">
-										<a href="./" className="text-white ml-1">
+									<Link	to={`/services/${service.routes}`} className="text-white ml-1">
 											Read more
 											<img
 												alt="arrow"
@@ -61,7 +62,7 @@ const Servicee = () => {
 												className="ml-1"
 												width="20px"
 											/>
-										</a>
+										</Link>
 									</label>
 								</div>
 							</div>
