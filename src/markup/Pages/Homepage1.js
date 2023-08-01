@@ -145,29 +145,31 @@ const Homepage = () => {
           {/* <!-- Testimonials END --> */}
 
           {/* <!-- Get in touch --> */}
-          <div style={{ height: "20vh", marginBottom: "5rem", position: "relative", }}>
-            <HomeForm />
-          </div>
-          <div
-            className="section-full overlay-primary-dark bg-img-fix "
-            style={{
-              backgroundImage:
-                'linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)', zIndex: 5, paddingTop: isSmallScreen ? "15rem" : "10rem"
 
-            }}
-          >
 
+          <div>
+            <div style={{ height: "10rem" }} >
+              <HomeForm /></div>
             {/* <FormStyle /> */}
-            <Footer2 />
-            <div className="row pt-4" >
-              <div
-                className="col-lg-12 col-md-12 col-sm-12  "
-                style={{ backgroundColor: '#6CC000', zIndex: 10 }}
-              >
-                {' '}
+            <div className='overlay-primary-dark section-full bg-img-fix'
+              style={{
+                backgroundImage:
+                  'linear-gradient(140deg, #EADEDB 20%, #BC70A4 50%, #077F84 75%)', zIndex: 5,
+
+              }}>
+              <div style={{ paddingTop: isSmallScreen ? "20rem" : "10rem" }}>      <Footer2 /></div>
+
+              <div className="row pt-4" >
+                <div
+                  className="col-lg-12 col-md-12 col-sm-12  "
+                  style={{ backgroundColor: '#6CC000', zIndex: 10 }}
+                >
+                  {' '}
+                </div>
               </div>
+              <Footer />
             </div>
-            <Footer />
+
           </div>
           {/* <!-- Get in touch --> */}
         </div>
