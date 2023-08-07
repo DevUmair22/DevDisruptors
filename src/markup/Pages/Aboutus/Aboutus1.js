@@ -51,20 +51,25 @@ class aboutus extends Component {
                                     <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
                                         <div className="dis-tbl-cell">
                                             {/* <h2 className="box-title m-tb0">Solutions that make a difference<span className="bg-primary"></span></h2> */}
-                                            <p>DevDisruptors believes in excellence, innovation, and passion
-                                                for creating the best software development solutions for our
-                                                global client base.
-                                                <b> We aim to disrupt the conventional and lead with innovation.</b>
+                                            <p>DevDisruptors thrives on excellence, innovation, and passion.
+                                                We are driven to deliver unparalleled software solutions for our global clients,
+                                                aiming to disrupt norms and lead with groundbreaking innovation. 
+                                               
                                                 </p>
 
 
                                             {/* style={{ textAlign: 'justify', color: '#212529' }} */}
 
                                             <p style={{ color: '#212529' }}>
-                                                We are a team of experienced professionals committed to exceeding client expectations, streamlining operations, boosting productivity, and fostering business growth. This highly dedicated team welcomes new challenges everyday.
+                                                We are a team of experienced professionals committed to exceeding
+                                                client expectations, streamlining operations, boosting productivity,
+                                                and fostering business growth. This highly dedicated team welcomes new challenges every day.
                                             </p>
                                             <p style={{ color: '#212529' }}>
-                                                We specialize in leveraging cutting-edge technologies to create high-quality, scalable, and robust web applications that cater to the diverse needs of our clients. Our services include design and development for both mobile and
+                                                DevD specializes in leveraging cutting-edge technologies
+                                                to create high-quality, scalable, and robust web applications
+                                                that cater to the diverse needs of our clients. Our services
+                                                include design and development for both mobile and
                                                 web platforms, ERPs, CRMs, e-commerce solutions, QA testing, and
                                                 user interface design.
                                             </p>
@@ -175,13 +180,20 @@ function VisionBlog() {
                         <div className="col-lg-6 col-md-12 m-b30 dis-tbl text-justify">
                             <div className="dis-tbl-cell">
                                 <h2 className="box-title">Mission</h2>
-                                <p className="font-16"><b>Enabling access to high-quality, cost-effective IT services and solutions. </b></p>
-                                <p className="font-16">Our mission is to enable access to high-quality IT services for small start-ups to large firms at a reasonable cost. We strive to timely deliver the best quality product to the client with the most competitive price-to-quality ratio found in the industry.
-
+                                <p className="font-16">
+                                Our mission is to enable access to high-quality IT
+                                services for small start-ups to large firms at a reasonable cost.
+                                We are committed to delivering the most competitive price-to-quality ratio in the industry.
 
                                 </p>
 
-                                <p className="font-16">         We believe that in today’s world, it is vital to develop technology-driven products and services and to digitize systems and processes to increase their efficiency and productivity. We will leverage the best technologies to help our clients excel in their businesses and in turn, accelerate the modernization of the global economy.</p>
+                                <p className="font-16">
+                                Our growth is firmly attached to the growth of our clients.
+                                    At DevD, we strive to exceed the expectations of our clients by creating
+                                    best-in-class customized software solutions to address
+                                    business problems and build strong partnerships.                                
+                                
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -189,8 +201,6 @@ function VisionBlog() {
                         <div className="col-lg-6 col-md-12 dis-tbl text-justify">
                             <div className="dis-tbl-cell">
                                 <h2 className="box-title">Vision<span className="bg-primary"></span></h2>
-                                <p><b>Our vision is to be the leading IT services and solutions company
-                                    enabling the modernization of the global economy.</b></p>
 
                                 {/* <p className="font-16">
                                     Our vision is to be the leading IT services and solutions company
@@ -199,13 +209,17 @@ function VisionBlog() {
                                     customer-friendly software service providers.
                                 </p> */}
                                  <p className="font-16">
-                                    We want to
-                                    be known in the industry as the most reliable, competent, and
-                                    customer-friendly software service providers.
-                                </p>
+                                 Our vision is to be the leading IT services and solutions
+                                 company enabling the transformation of the global economy.
+                                 We want to build a reputation in the industry as the most reliable,
+                                 competent, and customer-centric software service providers.
+                                 </p>
                                 <p className="font-16">
-                                    Our growth is firmly attached to the growth of our clients. We will exceed the expectations of our clients by creating best-in-class customized software solutions
-                                    to address business problems and build strong partnerships.
+                                At DevD, we believe that in today’s world, it is vital to
+                                develop technology-driven products and services and to digitize
+                                systems and processes to increase their efficiency and productivity.
+                                We will leverage the best technologies to help our clients excel in
+                                their businesses and in turn, accelerate the modernization of the global economy.
 
                                 </p>
 

@@ -11,7 +11,7 @@ const FormStyle = () => {
 		emailjs.sendForm('service_1qj3vwd', 'template_igul9qr', form.current, 'ZLeR-68dSKjSqONrJ')
 			.then((result) => {
 				console.log(result.text);
-				NotificationManager.success('Email Send Successfully');
+				NotificationManager.success('Email Sent Successfully');
 
 			}, (error) => {
 				console.log(error.text);

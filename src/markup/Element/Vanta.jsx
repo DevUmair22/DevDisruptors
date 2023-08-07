@@ -44,14 +44,13 @@ const Vanta = () => {
 				>
 					<div className="col-lg-6 col-md-6 col-sm-12 px-4">
 						<h3 className="mt-5 py-2 text-bold " style={{ color: '#6dbe14' }}>
-							Empowering Businesses Through Technology
+							Transforming Business Through Technology
 						</h3>
 						<p className=" mx-auto text-justify text-black">
 						
-							DevDisruptors believes in excellence, innovation, and passion for
-							creating the best software development solutions for our global
-							client base.
-							We aim to disrupt the conventional and lead with innovation.
+							DevD thrives on excellence, innovation, and passion.
+							We are driven to deliver unparalleled software solutions for our global clients,
+							aiming to disrupt norms and lead with groundbreaking innovation. 
 							
 						</p>
 					</div>

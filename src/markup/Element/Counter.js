@@ -2,10 +2,10 @@ import React, { Component, Fragment } from 'react';
 import CountUp from 'react-countup';
 
 const counterBlog = [
-	{ icon: <i className="ti-bag m-r10 " />, num: '5', title: 'Years of Experience', },
-	{ icon: <i className="ti-user m-r10" />, num: '35', title: 'Satisfied Clients', },
-	{ icon: <i className="flaticon-users m-r10" />, num: '50', title: 'Technical Experts', },
-	{ icon: <i className="ti-mobile m-r10" />, num: '50', title: 'WebApps Delivered', },
+	{ icon: <i className="ti-bag m-r10 " />, num: '8', title: 'Years of Experience', },
+	{ icon: <i className="ti-user m-r10" />, num: '95', title: 'Satisfied Clients', },
+	{ icon: <i className="flaticon-users m-r10" />, num: '200', title: 'Technical Experts', },
+	{ icon: <i className="ti-mobile m-r10" />, num: '150', title: 'Apps Delivered', },
 ];
 
 class Counter extends Component {

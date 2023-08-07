@@ -15,7 +15,7 @@ const FormStyle2=()=>{
 		  .then((result) => {
 			  console.log(result.text);
             //   toast.success('successful',)
-            NotificationManager.success('Email Send Successfully');
+            NotificationManager.success('Email Sent Successfully');
 		  }, (error) => {
 			  console.log(error.text);
 		  });
@@ -41,7 +41,7 @@ const FormStyle2=()=>{
 										<div className="form-group">
 											<div className="input-group">
 												<span className="input-group-addon"><i className="ti-user text-primary"></i></span>
-												<input name="Name" type="text" required className="form-control" placeholder="First Name" />
+												<input name="Name" type="text" required className="form-control" placeholder="Full Name" />
 											</div>
 										</div>
 									</div>

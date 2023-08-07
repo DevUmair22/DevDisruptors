@@ -41,11 +41,10 @@ const Footer2 = () => {
                   <i className="ti-location-pin"></i>
                 </div>
                 <div className="col-10 px-0">
-                  <strong>address</strong> <p>DevDisruptors LLC,
-563 High Street
-Suite B <br/>PMB 1137
-Burlington, NJ 08016<br/>
-USA</p>{" "}
+                  <strong>address</strong> <p>DevDisruptors LLC
+                  <br/>563 High Street, Suite B-1137
+                  <br/>Burlington, NJ 08016
+                  </p>{" "}
                 </div>
               </div>
 

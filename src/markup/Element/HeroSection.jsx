@@ -18,7 +18,7 @@ const HeroSection = (props) => {
 			.then(
 				(result) => {
 					console.log(result.text)
-					NotificationManager.success('Email Send Successfully')
+					NotificationManager.success('Email Sent Successfully')
 				},
 				(error) => {
 					console.log(error.text)
