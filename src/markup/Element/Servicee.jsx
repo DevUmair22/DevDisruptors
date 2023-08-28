@@ -1,7 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import icon from './../../images/new-icons/arrow-right-white.svg'
 import { serviceData } from './data'
-import { Link } from 'react-router-dom';
 
 const Servicee = () => {
 	return (
@@ -38,7 +38,7 @@ const Servicee = () => {
 												Development
 											</h4>
 										) : (
-											<h4 className="m-0">{service.name}</h4>
+											<h4 className="m-0 my-auto">{service.name}</h4>
 										)}
 									</div>
 									{service.service.map((item) => (
@@ -54,8 +54,11 @@ const Servicee = () => {
 								</div>
 								<div className="pt-1">
 									<label class="mb-0 read-more-btn mt-4 mt-md-2 mt-lg-4">
-										{console.log("service", service.service)}
-										<Link to={service.route}  className="text-white ml-1">
+										{console.log('service', service.service)}
+										<Link
+											to={`/services/${service.routes}`}
+											className="text-white ml-1"
+										>
 											Read more
 											<img
 												alt="arrow"

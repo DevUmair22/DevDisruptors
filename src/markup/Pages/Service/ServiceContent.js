@@ -225,8 +225,8 @@ export const data = [
         icon: ""
       },
       {
-        title: "Content Management System (CMS) Development",
-        description: "CMS platforms like WordPress, Drupal, or Joomla allow users to manage and update website content without extensive technical knowledge. ",
+        title: "CMS Development",
+        description: "Content Management Systems like WordPress, Drupal, or Joomla allow users to manage and update website content without extensive technical knowledge. ",
         icon: ""
       },
       {
@@ -295,12 +295,17 @@ export const data = [
         title: "App Consulting and Strategy",
         description: "DevD helps you define an app strategy, identify target audience, plan features and functionalities, and make informed decisions regarding the app's development and deployment. ",
         icon: ""
+      },
+      {
+        title: "Cross-Platform App Development",
+        description: "Cross-platform development streamlines app creation, allowing a single codebase to function seamlessly on multiple platforms, saving time and resources.",
+        icon: ""
       }
       ,
-      
+
       {
         title: "Hybrid Mobile App Development",
-        description: "Hybrid app development combines elements of both web and native app development. It involves using web technologies such as HTML5, CSS, and JavaScript, wrapped in a native container, to create mobile applications.",
+        description: "Hybrid app development merges web technologies like HTML5, CSS, and JavaScript within a native container, offering a versatile approach for crafting mobile applications.",
         icon: ""
       }
       ,
@@ -309,12 +314,7 @@ export const data = [
         description: "Backend development means building the server-side logic and infrastructure to support the mobile application, letting it handle data storage, user authentication, APIs, and other server-side operations.",
         icon: ""
       }
-      ,
-      {
-        title: "Cross-Platform App Development",
-        description: "Cross-platform development lets applications run on other platforms using a single codebase.",
-        icon: ""
-      }
+
       ,
       {
         title: "Application Store Deployment",
@@ -339,7 +339,7 @@ export const data = [
     pageHeading: [
       {
         mainTitle: "Mobile Application Development Services",
-        mainDescription: "DevDisruptors offers mobile app development for both iOS (Apple devices) and Android OS (Android devices), from coding and designing to testing and deploying applications."
+        mainDescription: "DevDisruptors provides comprehensive mobile app development services covering iOS and Android OS, encompassing coding, design, testing, and deployment."
 
       }
     ]
@@ -351,7 +351,7 @@ export const data = [
     data: [
       {
         title: "User Research & Persona Development",
-        description: "Understanding target users and creating user personas that capture key characteristics, goals, motivations, and pain points of different user types to guide design decisions.",
+        description: "Understanding target users and crafting user personas to capture key characteristics, goals, motivations, and pain points for guiding design decisions.",
         icon: ""
       },
 
@@ -392,8 +392,8 @@ export const data = [
     ,
     pageHeading: [
       {
-        mainTitle: "UI/UX Designing",
-        mainDescription: "DevDisruptors offers UI (User Interface) and UX (User Experience) services that aim to optimize the interaction between users and digital products."
+        mainTitle: "UI / UX Designing",
+        mainDescription: "DevDisruptors provides specialized User Interface and User Experience services meticulously designed to expertly optimize and elevate the interaction between users and digital products, thereby driving substantial improvements."
 
       }
     ]
@@ -435,7 +435,7 @@ export const data = [
       },
       {
         title: "Workflow and Integration Documentation ",
-        description: "Workflow and integration documentation provides step-by-step instructions, configuration details, and prerequisites for integrating the codebase into existing systems or workflows.",
+        description: "Integration documentation provides concise, step-by-step instructions for seamlessly implementing the codebase into existing workflows and systems.",
         icon: ""
       },
       {
@@ -635,6 +635,22 @@ export const data = [
         description: "Evaluating your organization's current software development and operations practices, identifying areas for improvement, and providing guidance on adopting DevOps principles.",
         icon: ""
       },
+
+      {
+        title: "Containerization and Orchestration",
+        description: "Containerization implements container technologies such as Docker to package applications and their dependencies. Container orchestration manages the deployment and scaling of containers.",
+        icon: ""
+      },
+      {
+        title: "Monitoring and Logging",
+        description: "Monitoring and logging encompass implementing robust solutions to effectively track and assess the performance, health, and operational status of software applications and underlying infrastructure components.",
+        icon: ""
+      },
+      {
+        title: "DevOps Toolchain Integration",
+        description: "DevD excels at integrating and streamlining your organization's suite of tools, creating a cohesive ecosystem that fosters seamless collaboration and  automation, ultimately enhancing your operational efficiency and productivity.",
+        icon: ""
+      },
       {
         title: "Continuous Integration and Continuous Deployment (CI/CD) Implementation",
         description: "CI/CD services assist organizations in setting up and configuring automated pipelines for building, testing, and deploying software applications.",
@@ -645,22 +661,6 @@ export const data = [
         description: "Defining infrastructure requirements as code (IaC) and using tools like Ansible to automate provisioning, configuration, and management of infrastructure resources.",
         icon: ""
       },
-      {
-        title: "Containerization and Orchestration",
-        description: "Containerization implements container technologies such as Docker to package applications and their dependencies. Container orchestration manages the deployment and scaling of containers.",
-        icon: ""
-      },
-      {
-        title: "Monitoring and Logging",
-        description: "Monitoring and logging involves implementing solutions that track the performance and health of software applications and infrastructure.",
-        icon: ""
-      },
-      {
-        title: "DevOps Toolchain Integration",
-        description: "DevD helps integrate and streamline your organization's tools to enable seamless collaboration and automation.",
-        icon: ""
-      },
-
     ],
     pageHeading: [
       {
@@ -676,42 +676,42 @@ export const data = [
     data: [
       {
         title: "Infrastructure as a Service (IaaS)",
-        description: "IaaS provides virtualized computing resources such as virtual machines, storage, and networks on-demand. Developers can provision and manage virtualized infrastructure resources without the need for physical hardware.",
+        description: "IaaS offers convenient access to virtualized computing resources like virtual machines, storage, and networks on-demand. This empowers developers to efficiently provision and manage these resources without the constraints of physical hardware.",
         icon: ""
       },
       {
         title: "Platform as a Service (PaaS)",
-        description: "A complete development and deployment platform that includes the underlying infrastructure, OS, and development tools. Developers can focus on coding and application logic while the PaaS provider manages the infrastructure and runtime environment.",
+        description: "An integrated development and deployment platform combines infrastructure, tools, empowering developers to prioritize coding. The PaaS provider manages runtime environment, streamlining processes for heightened efficiency.",
         icon: ""
       },
       {
         title: "Serverless Computing",
-        description: "With serverless computing, developers can write and deploy functions or small units of code that are executed in response to events. The cloud provider manages the scaling and execution of these functions.",
+        description: "In the realm of serverless computing, developers can efficiently write and deploy code units triggered by events. This process is seamlessly managed by cloud providers, encompassing scaling and execution of these functions.",
         icon: ""
       },
       {
         title: "Database as a Service (DBaaS)",
-        description: "Managed database services that handle database administration tasks e.g. installation, configuration, backups, and scaling. Developers can focus on interacting with the database and building applications without worrying about infrastructure management.",
+        description: "Managed database services handle tasks like installation, configuration, backups, and scaling, freeing developers to focus on database interaction and application development, alleviating infrastructure management concerns.",
         icon: ""
       },
       {
         title: "Development Tools and SDKs",
-        description: "Cloud providers offer various development tools, software development kits (SDKs), and APIs that enable developers to build, test, and deploy applications on their platforms.",
+        description: "Cloud providers furnish a range of development tools, software development kits (SDKs), and APIs, equipping developers to construct, test, and deploy applications seamlessly within their platforms.",
         icon: ""
       },
       {
         title: "Containerization and Orchestration",
-        description: "Cloud services often provide containerization platforms like Docker and container orchestration tools like Kubernetes.",
+        description: "Cloud services frequently offer containerization platforms such as Docker, along with container orchestration tools like Kubernetes, enabling efficient application deployment, scaling, and management.",
         icon: ""
       },
       {
         title: "Testing and Continuous Integration",
-        description: "Automated testing and continuous integration allows our developers to integrate code changes, build and test applications automatically, and receive feedback quickly.",
+        description: "Automated testing and continuous integration empower our developers to seamlessly integrate code changes, automatically build and test applications, and swiftly receive valuable feedback.",
         icon: ""
       },
       {
-        title: "Code Repositories and Version Control",
-        description: "Cloud-based code repositories, such as GitHub, GitLab, and Bitbucket, provide version control, collaboration features, and integration with other development tools.",
+        title: "Version Controlling",
+        description: "Cloud-based repositories like GitHub, GitLab, and Bitbucket offer version control, collaboration tools, and seamless integration with various development resources, enhancing your development workflow and team productivity.",
         icon: ""
       },
     ],

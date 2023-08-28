@@ -17,7 +17,7 @@ const iconBlog = [
 	{
 		icon: <i className="flaticon-search" />,
 		title: 'Transparency',
-		para: 'Transparency is directly correlated with success. We believe in honesty, trust and mutual understanding within the workplace and with every stakeholder interaction.',
+		para: 'Transparency is directly correlated with sustained success. We believe in honesty, trust, and fostering mutual understanding within the workplace and with every stakeholder interaction.',
 	},
 ]
 
@@ -42,10 +42,11 @@ const CoreValue = (props) => {
 				<div className="container">
 					<div className="row text-white">
 						{iconBlog.map((item, index) => (
-							<div className="col-lg-3 col-md-6 col-sm-6" key={index}>
+							<div className="col-lg-3 col-md-6 col-sm-6 " key={index}>
 								<div
-									className="icon-bx-wraper bx-style-1 p-a30 center mb-sm-5 mb-sm-4 "
-									// style={{ minHeight: '29rem' }}
+									className="icon-bx-wraper bx-style-1 p-a30 center mb-5 
+									 "
+									style={{ minHeight: '25rem' }}
 								>
 									<div className="icon-lg text-white ">{item.icon}</div>
 									<div className="icon-content">

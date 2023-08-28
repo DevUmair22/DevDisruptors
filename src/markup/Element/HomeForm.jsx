@@ -1,12 +1,12 @@
 import emailjs from '@emailjs/browser'
-// import { useMediaQuery } from '@material-ui/core'
-// import { useTheme } from '@material-ui/core/styles'
+import { useMediaQuery } from '@material-ui/core'
+import { useTheme } from '@material-ui/core/styles'
 import React, { useRef } from 'react'
 import { NotificationManager } from 'react-notifications'
 
 const HomeForm = () => {
-	// const theme = useTheme()
-	// const isSmallScreen = useMediaQuery(theme.breakpoints.down('xs'))
+	const theme = useTheme()
+	const isSmallScreen = useMediaQuery(theme.breakpoints.down('xs'))
 	// const isMidScreen = useMediaQuery(theme.breakpoints.down('lg'))
 	// const isLargeScreen = useMediaQuery(theme.breakpoints.down('xl'))
 
@@ -40,7 +40,7 @@ const HomeForm = () => {
 				className="container "
 				style={{
 					zIndex: 8,
-
+					padding: isSmallScreen ? '0px' : 'auto',
 					display: 'flex',
 					justifyContent: 'center',
 				}}
@@ -52,14 +52,17 @@ const HomeForm = () => {
 						backgroundColor: 'white',
 						border: '1px solid white',
 						display: 'flex',
-						width: '80%',
+						width: isSmallScreen ? '98%' : '80%',
 						zIndex: '6',
 						margin: '0 auto 0 auto',
 					}}
 					ref={form}
 					onSubmit={sendEmail}
 				>
-					<h4 className="box-title col-12 p-0 text-center ">
+					<h4
+						className="box-title col-12 p-0 text-center "
+						style={{ fontSize: isSmallScreen ? '1.2rem' : '1.5rem' }}
+					>
 						Let's Convert Your Idea into Reality{' '}
 					</h4>
 
